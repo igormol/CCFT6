@@ -1,0 +1,295 @@
+\babel@toc {british}{}\relax 
+\contentsline {title}{A Celestial Description of Planar Yang-Mills Theory}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{6}{}
+\contentsline {section}{\numberline {II}Minitwistor Superwavefunctions}{6}{}
+\contentsline {subsection}{\numberline {A}Review: Twistor Superwavefunctions}{6}{}
+\contentsline {subsection}{\numberline {B}Minitwistor Superwavefunctions}{7}{}
+\contentsline {paragraph}{\numberline {}Homogeneity.}{8}{}
+\contentsline {paragraph}{\numberline {}Explicit Form of $\Psi _{\Delta }^{p}$.}{8}{}
+\contentsline {subsection}{\numberline {C}Homogeneous Bundles on Minitwistor Superspace}{9}{}
+\contentsline {subsubsection}{\numberline {1}Minitwistor Superspace}{9}{}
+\contentsline {paragraph}{\numberline {}Definition of $\mathbf {MT}_{s}$.}{10}{}
+\contentsline {paragraph}{\numberline {}Quotient Map.}{10}{}
+\contentsline {paragraph}{\numberline {}Orientation. }{10}{}
+\contentsline {subsubsection}{\numberline {2}Dual Minitwistor Superspace}{11}{}
+\contentsline {paragraph}{\numberline {}Definition of $\mathbf {MT}_{s}^{*}$.}{11}{}
+\contentsline {paragraph}{\numberline {}Quotient map.}{11}{}
+\contentsline {paragraph}{\numberline {}Volume superform.}{12}{}
+\contentsline {subsubsection}{\numberline {3}$\mathcal {O}_{A}(p,q)$-bundle}{12}{}
+\contentsline {paragraph}{\numberline {}Definition of $\mathcal {O}_{A}(p,q)$.}{12}{}
+\contentsline {paragraph}{\numberline {}Fibration.}{12}{}
+\contentsline {paragraph}{\numberline {}Module of Sections.}{13}{}
+\contentsline {paragraph}{\numberline {}Main Result.}{13}{}
+\contentsline {subsubsection}{\numberline {4}$\mathcal {O}_{A}^{*}(r,s)$-bundle}{15}{}
+\contentsline {paragraph}{\numberline {}Definition of $\mathcal {O}_{A}^{*}(r,s)$.}{15}{}
+\contentsline {paragraph}{\numberline {}Dual Fibration.}{15}{}
+\contentsline {paragraph}{\numberline {}Sections.}{16}{}
+\contentsline {subsubsection}{\numberline {5}Superforms and Currents on Minitwistor Superspace}{16}{}
+\contentsline {paragraph}{\numberline {}Superforms.}{16}{}
+\contentsline {paragraph}{\numberline {}Supercurrents.}{17}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Superwavefunctions as Currents.}{17}{}
+\contentsline {paragraph}{\numberline {}Currents on the Dual Superspace.}{18}{}
+\contentsline {paragraph}{\numberline {}Differential Superforms on Dual Space.}{18}{}
+\contentsline {paragraph}{\numberline {}Dual Supercurrents.}{18}{}
+\contentsline {paragraph}{\numberline {}Supercurrents on the Dual Superspace.}{19}{}
+\contentsline {subsection}{\numberline {D}Minitwistor Transform}{19}{}
+\contentsline {subsubsection}{\numberline {1}Completeness Relation}{19}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Delta Function.}{21}{}
+\contentsline {paragraph}{\numberline {}Canonical Form.}{22}{}
+\contentsline {subsubsection}{\numberline {2}Orthogonality}{22}{}
+\contentsline {paragraph}{\numberline {}Dual Delta Function.}{23}{}
+\contentsline {subsubsection}{\numberline {3}Minitwistor Fourier Transform}{24}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{24}{}
+\contentsline {paragraph}{\numberline {}Inversion Theorem.}{25}{}
+\contentsline {paragraph}{\numberline {}Summary.}{26}{}
+\contentsline {subsection}{\numberline {E}Celestial BMSW Identity}{26}{}
+\contentsline {subsubsection}{\numberline {1}Preliminaries}{27}{}
+\contentsline {paragraph}{\numberline {}Projective Model of Hyperbolic Space.}{27}{}
+\contentsline {paragraph}{\numberline {}Hyperbolic Superspace.}{29}{}
+\contentsline {paragraph}{\numberline {}Double Fibration.}{29}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Lines.}{30}{}
+\contentsline {paragraph}{\numberline {}The Penrose Integrand.}{31}{}
+\contentsline {subsubsection}{\numberline {2}Minitwistor Correspondence}{33}{}
+\contentsline {paragraph}{\numberline {}Definition.}{33}{}
+\contentsline {paragraph}{\numberline {}Consistency.}{33}{}
+\contentsline {paragraph}{\numberline {}Differential Equation.}{34}{}
+\contentsline {paragraph}{\numberline {}Proper Functions.}{34}{}
+\contentsline {paragraph}{\numberline {}A Simple Lemma.}{35}{}
+\contentsline {paragraph}{\numberline {}Main Result.}{35}{}
+\contentsline {paragraph}{\numberline {}Celestial Superwavefunction.}{36}{}
+\contentsline {subsubsection}{\numberline {3}Boels-Mason-Skinner-Witten \emph {(BMSW)} Identity}{38}{}
+\contentsline {subsection}{\numberline {F}Supersymmetric Celestial RSVW Identity}{39}{}
+\contentsline {subsubsection}{\numberline {1}Preliminaries}{40}{}
+\contentsline {subsubsection}{\numberline {2}A Simple Lemma}{41}{}
+\contentsline {paragraph}{\numberline {}Lemma.}{41}{}
+\contentsline {paragraph}{\numberline {}Proof of Lemma.}{42}{}
+\contentsline {subsubsection}{\numberline {3}Main Result}{42}{}
+\contentsline {section}{\numberline {III}Tree-level $S$-Matrix}{43}{}
+\contentsline {subsection}{\numberline {A}$N^{1}$-MHV Scattering Amplitude}{44}{}
+\contentsline {paragraph}{\numberline {}Dual Coordinates.}{44}{}
+\contentsline {subsubsection}{\numberline {1}Dual Conformal Invariant}{45}{}
+\contentsline {paragraph}{\numberline {}Celestial Description.}{45}{}
+\contentsline {subsubsection}{\numberline {2}Fadde'ev-Popov Representation}{45}{}
+\contentsline {subsubsection}{\numberline {3}Delta Functions}{46}{}
+\contentsline {paragraph}{\numberline {}Fermionic Delta Function.}{47}{}
+\contentsline {paragraph}{\numberline {}Bosonic Delta Function.}{47}{}
+\contentsline {subsubsection}{\numberline {4}Integral Representation for the $R$-invariant}{48}{}
+\contentsline {paragraph}{\numberline {}Integration Superdomain.}{48}{}
+\contentsline {paragraph}{\numberline {}Embedding Coordinates.}{48}{}
+\contentsline {paragraph}{\numberline {}Comment.}{49}{}
+\contentsline {paragraph}{\numberline {}Main Result.}{49}{}
+\contentsline {subsubsection}{\numberline {5}Celestial Superamplitude}{50}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{50}{}
+\contentsline {paragraph}{\numberline {}Pre-moduli Superspace.}{51}{}
+\contentsline {paragraph}{\numberline {}Comment.}{51}{}
+\contentsline {paragraph}{\numberline {}Mellin Transform.}{52}{}
+\contentsline {subsubsection}{\numberline {6}Sectional Amplitude}{53}{}
+\contentsline {paragraph}{\numberline {}Klein and Projective Spaces.}{53}{}
+\contentsline {paragraph}{\numberline {}Klein and Projective Superspaces.}{54}{}
+\contentsline {paragraph}{\numberline {}Partial Amplitudes.}{54}{}
+\contentsline {paragraph}{\numberline {}Dimensional Reduction.}{55}{}
+\contentsline {subsubsection}{\numberline {7}Geometrical Formulation}{56}{}
+\contentsline {paragraph}{\numberline {}Celestial RSVW Identity.}{56}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Amplitude.}{57}{}
+\contentsline {paragraph}{\numberline {}Interpretation.}{58}{}
+\contentsline {subsection}{\numberline {B}$N^{2}$-MHV Scattering Amplitude}{58}{}
+\contentsline {subsubsection}{\numberline {1}Order-$2$ $R$-Invariant}{58}{}
+\contentsline {subsubsection}{\numberline {2}Fadde'ev-Popov Representation}{59}{}
+\contentsline {paragraph}{\numberline {}Comment.}{59}{}
+\contentsline {subsubsection}{\numberline {3}Fermionic and Bosonic Delta-functions}{60}{}
+\contentsline {subsubsection}{\numberline {4}Degree-$2$ $R$-monomial}{60}{}
+\contentsline {paragraph}{\numberline {}Recap. }{60}{}
+\contentsline {paragraph}{\numberline {}Integration Superdomain.}{61}{}
+\contentsline {paragraph}{\numberline {}Embedding Coordinates.}{61}{}
+\contentsline {paragraph}{\numberline {}Integral Representation.}{62}{}
+\contentsline {subsubsection}{\numberline {5}$N^{2}$-MHV Celestial Superamplitude}{63}{}
+\contentsline {paragraph}{\numberline {}Partial Amplitudes.}{63}{}
+\contentsline {paragraph}{\numberline {}Celestial Parameterisation.}{63}{}
+\contentsline {paragraph}{\numberline {}Integral Representation.}{63}{}
+\contentsline {paragraph}{\numberline {}Celestial Superamplitude.}{64}{}
+\contentsline {subsubsection}{\numberline {6}Sectional Amplitude}{65}{}
+\contentsline {paragraph}{\numberline {}Leaf Formalism.}{65}{}
+\contentsline {subsubsection}{\numberline {7}Geometrical Formulation}{67}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{67}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Amplitude.}{68}{}
+\contentsline {paragraph}{\numberline {}Conclusion.}{68}{}
+\contentsline {subsection}{\numberline {C}General Case}{69}{}
+\contentsline {subsubsection}{\numberline {1}Dual Conformal Invariant}{69}{}
+\contentsline {subsubsection}{\numberline {2}Fermionic and Constraint Delta Functions}{71}{}
+\contentsline {paragraph}{\numberline {}Fermionic Delta-Function.}{71}{}
+\contentsline {paragraph}{\numberline {}Constraint Delta-Function.}{71}{}
+\contentsline {subsubsection}{\numberline {3}Fadde'ev-Popov Representation}{72}{}
+\contentsline {paragraph}{\numberline {}Integration Superdomain.}{72}{}
+\contentsline {paragraph}{\numberline {}Embedding Coordinates.}{73}{}
+\contentsline {paragraph}{\numberline {}Integral Representation.}{73}{}
+\contentsline {subsubsection}{\numberline {4}Induction Hypothesis}{73}{}
+\contentsline {paragraph}{\numberline {}Axiom 1. Moduli Reparametrization.}{74}{}
+\contentsline {paragraph}{\numberline {}Axiom 2. Integral Representation.}{74}{}
+\contentsline {subsubsection}{\numberline {5}Outline of the Argument }{75}{}
+\contentsline {subsubsection}{\numberline {6}Celestial Amplitude}{76}{}
+\contentsline {paragraph}{\numberline {}Notation.}{76}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{77}{}
+\contentsline {paragraph}{\numberline {}Celestial Reparametrization.}{78}{}
+\contentsline {paragraph}{\numberline {}Mellin Transform.}{79}{}
+\contentsline {subsubsection}{\numberline {7}Dimensional Reduction}{79}{}
+\contentsline {subsubsection}{\numberline {8}Minitwistor Amplitude}{81}{}
+\contentsline {paragraph}{\numberline {}Geometric Background.}{81}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Amplitude.}{82}{}
+\contentsline {paragraph}{\numberline {}Conclusion.}{82}{}
+\contentsline {section}{\numberline {IV}Minitwistor Wilson Lines}{83}{}
+\contentsline {subsection}{\numberline {A}Holomorphic Wilson Lines}{83}{}
+\contentsline {subsubsection}{\numberline {1}Review: Holomorphic Gauge Theory}{84}{}
+\contentsline {paragraph}{\numberline {}Ground States.}{84}{}
+\contentsline {paragraph}{\numberline {}Gauge Potential.}{84}{}
+\contentsline {paragraph}{\numberline {}Fieldstrength.}{85}{}
+\contentsline {subsubsection}{\numberline {2}Parallel Transport; Abelian Case}{85}{}
+\contentsline {paragraph}{\numberline {}Restricted Bundle.}{85}{}
+\contentsline {paragraph}{\numberline {}Holomorphic Frame.}{85}{}
+\contentsline {paragraph}{\numberline {}Abelian Case.}{86}{}
+\contentsline {subsubsection}{\numberline {3}Non-Abelian Parallel Transport; Wilson Operator}{87}{}
+\contentsline {paragraph}{\numberline {}Physical Interpretation.}{88}{}
+\contentsline {subsubsection}{\numberline {4}MHV Leaf-Gluon Amplitudes}{89}{}
+\contentsline {paragraph}{\numberline {}Dual Minitwistors and Celestial Supersphere.}{90}{}
+\contentsline {paragraph}{\numberline {}Semiclassical Expectation Value of $\mathbb {W}_{z_{n},z_{1}}^{\boldsymbol {A}}[\mathcal {L}]$.}{91}{}
+\contentsline {paragraph}{\numberline {}Generating Functional.}{91}{}
+\contentsline {subsection}{\numberline {B}Holonomies and $N^{k}$-MHV Amplitudes}{94}{}
+\contentsline {subsubsection}{\numberline {1}Summary of Key Steps}{94}{}
+\contentsline {subsubsection}{\numberline {2}Next Steps; Geometrical Motivation}{95}{}
+\contentsline {subsubsection}{\numberline {3}Building Blocks; Product Rules}{97}{}
+\contentsline {paragraph}{\numberline {}Elementary Blocks.}{97}{}
+\contentsline {paragraph}{\numberline {}Product Rules.}{99}{}
+\contentsline {subsubsection}{\numberline {4}Holonomy, Wilson Lines and Amplitudes}{100}{}
+\contentsline {paragraph}{\numberline {}$\mathrm {N}^{1}\text {-}\mathrm {MHV}$ Sector.}{100}{}
+\contentsline {paragraph}{\numberline {}$\mathrm {N}^{2}\text {-}\mathrm {MHV}$ Sector.}{104}{}
+\contentsline {subsubsection}{\numberline {5}Tree-level $\mathcal {S}$-Matrix}{107}{}
+\contentsline {paragraph}{\numberline {}Localisation.}{108}{}
+\contentsline {paragraph}{\numberline {}Evaluation Map and Incidence Relations.}{108}{}
+\contentsline {paragraph}{\numberline {}Operator/State Correspondence.}{108}{}
+\contentsline {paragraph}{\numberline {}Holonomy Operator.}{109}{}
+\contentsline {paragraph}{\numberline {}Wilson Operator; Semiclassical Expectation Value.}{110}{}
+\contentsline {subsection}{\numberline {C}Discussion}{111}{}
+\contentsline {section}{\numberline {V}Minitwistor String Theory}{112}{}
+\contentsline {subsection}{\numberline {A}Single-String Model }{114}{}
+\contentsline {subsubsection}{\numberline {1}Formal Preliminaries}{114}{}
+\contentsline {paragraph}{\numberline {}Configuration Space.}{115}{}
+\contentsline {paragraph}{\numberline {}Classical String Configurations.}{115}{}
+\contentsline {paragraph}{\numberline {}Evaluation Maps.}{116}{}
+\contentsline {subsubsection}{\numberline {2}Classical Theory: Geometric Sector}{119}{}
+\contentsline {paragraph}{\numberline {}Partial Differential Equations; Currents.}{119}{}
+\contentsline {paragraph}{\numberline {}Bosonic Sector.}{120}{}
+\contentsline {paragraph}{\numberline {}Fermionic Sector.}{120}{}
+\contentsline {paragraph}{\numberline {}Geometric Sector.}{122}{}
+\contentsline {subsubsection}{\numberline {3}Classical Theory: Worldsheet CFT}{123}{}
+\contentsline {paragraph}{\numberline {}Holomorphic Gauge Theory.}{123}{}
+\contentsline {paragraph}{\numberline {}Induced Potential.}{124}{}
+\contentsline {paragraph}{\numberline {}Celestial Fermions.}{124}{}
+\contentsline {paragraph}{\numberline {}Dynamics.}{125}{}
+\contentsline {subsubsection}{\numberline {4}Semiclassical Theory}{126}{}
+\contentsline {paragraph}{\numberline {}Notation.}{126}{}
+\contentsline {paragraph}{\numberline {}Effective Action.}{126}{}
+\contentsline {paragraph}{\numberline {}Saddle-point Approximation.}{127}{}
+\contentsline {paragraph}{\numberline {}Correlation Functions.}{128}{}
+\contentsline {paragraph}{\numberline {}Partition Function.}{129}{}
+\contentsline {subsubsection}{\numberline {5}Partition Function and $\text {MHV}$ Amplitudes}{129}{}
+\contentsline {paragraph}{\numberline {}MHV leaf amplitudes.}{130}{}
+\contentsline {paragraph}{\numberline {}Conclusion.}{131}{}
+\contentsline {subsubsection}{\numberline {6}Vertex Operators}{131}{}
+\contentsline {paragraph}{\numberline {}Motivation.}{131}{}
+\contentsline {paragraph}{\numberline {}Gauge Group.}{133}{}
+\contentsline {paragraph}{\numberline {}WZNW Current Algebra.}{133}{}
+\contentsline {paragraph}{\numberline {}WZNW Correlator.}{134}{}
+\contentsline {paragraph}{\numberline {}Semiclassical Celestial Correlator.}{135}{}
+\contentsline {paragraph}{\numberline {}Tree-level MHV Amplitudes.}{135}{}
+\contentsline {paragraph}{\numberline {}Comment.}{137}{}
+\contentsline {subsection}{\numberline {B}An $N$-String System Coupled to a Gauge Background}{137}{}
+\contentsline {subsubsection}{\numberline {1}Classical Theory}{137}{}
+\contentsline {paragraph}{\numberline {}Geometric Formulation.}{138}{}
+\contentsline {paragraph}{\numberline {}Dynamical Formulation.}{139}{}
+\contentsline {paragraph}{\numberline {}Bosonic Sector.}{140}{}
+\contentsline {paragraph}{\numberline {}Fermionic Sector; Celestial Supersphere.}{140}{}
+\contentsline {paragraph}{\numberline {}Geometric Sector.}{141}{}
+\contentsline {paragraph}{\numberline {}Embedding Maps.}{142}{}
+\contentsline {subsubsection}{\numberline {2}Worldsheet CFT}{143}{}
+\contentsline {paragraph}{\numberline {}Outline.}{143}{}
+\contentsline {paragraph}{\numberline {}A Simple Analogy.}{143}{}
+\contentsline {paragraph}{\numberline {}Embedding Superspace.}{144}{}
+\contentsline {paragraph}{\numberline {}The Superpotential.}{144}{}
+\contentsline {paragraph}{\numberline {}Induced Potential on Celestial Sphere.}{145}{}
+\contentsline {paragraph}{\numberline {}Celestial Fermions.}{145}{}
+\contentsline {paragraph}{\numberline {}Action.}{146}{}
+\contentsline {subsubsection}{\numberline {3}Semiclassical Theory}{146}{}
+\contentsline {paragraph}{\numberline {}Outline.}{147}{}
+\contentsline {paragraph}{\numberline {}Notation. }{147}{}
+\contentsline {paragraph}{\numberline {}Actions.}{148}{}
+\contentsline {paragraph}{\numberline {}Saddle-Point Approximation; Semiclassical Statistical Ensemble.}{149}{}
+\contentsline {subsubsection}{\numberline {4}Partition Function and the Tree-level Gluon $\mathcal {S}$-Matrix}{151}{}
+\contentsline {paragraph}{\numberline {}Partition Function.}{151}{}
+\contentsline {paragraph}{\numberline {}Recovering the $\mathrm {N}^{k}\text {-\ensuremath {\mathrm {MHV}}}$ Leaf-Gluon Amplitudes.}{153}{}
+\contentsline {paragraph}{\numberline {}Discussion.}{154}{}
+\contentsline {subsection}{\numberline {C}Vertex Operators and the $S$-Algebra}{154}{}
+\contentsline {subsubsection}{\numberline {1}Physical Motivation}{155}{}
+\contentsline {subsubsection}{\numberline {2}Leaf Amplitudes from Celestial Correlators}{157}{}
+\contentsline {paragraph}{\numberline {}Semiclassical Celestial Correlator.}{157}{}
+\contentsline {paragraph}{\numberline {}Physical Setup.}{157}{}
+\contentsline {paragraph}{\numberline {}Main Result.}{158}{}
+\contentsline {subsubsection}{\numberline {3}The $S$-Algebra}{159}{}
+\contentsline {paragraph}{\numberline {}Current Algebra.}{160}{}
+\contentsline {paragraph}{\numberline {}Integrated Vertex Operator.}{160}{}
+\contentsline {paragraph}{\numberline {}Definition.}{160}{}
+\contentsline {paragraph}{\numberline {}Main Result.}{161}{}
+\contentsline {paragraph}{\numberline {}Corollary.}{161}{}
+\contentsline {subsection}{\numberline {D}Discussion}{162}{}
+\contentsline {paragraph}{\numberline {}Vertex Operators.}{163}{}
+\contentsline {paragraph}{\numberline {}$S$-algebra.}{163}{}
+\contentsline {paragraph}{\numberline {}Speculations.}{164}{}
+\contentsline {section}{\numberline {VI}One-Loop Gauge Theory Amplitude}{167}{}
+\contentsline {subsection}{\numberline {A}Introduction}{167}{}
+\contentsline {paragraph}{\numberline {}External Gluons.}{167}{}
+\contentsline {paragraph}{\numberline {}Loop Configuration.}{167}{}
+\contentsline {paragraph}{\numberline {}Phase Superspace.}{168}{}
+\contentsline {paragraph}{\numberline {}Scattering Superamplitude.}{168}{}
+\contentsline {subsection}{\numberline {B}Celestial Amplitude}{169}{}
+\contentsline {subsubsection}{\numberline {1}Preliminaries}{170}{}
+\contentsline {paragraph}{\numberline {}Momentum-Conserving Delta-Functions.}{170}{}
+\contentsline {paragraph}{\numberline {}Supercharge Conservation.}{170}{}
+\contentsline {subsubsection}{\numberline {2}Integral Representation of One-Loop Superamplitude}{171}{}
+\contentsline {paragraph}{\numberline {}Integration Superdomain.}{171}{}
+\contentsline {paragraph}{\numberline {}Explicit Expression for $\mathcal {A}_{\ell (1)}$.}{172}{}
+\contentsline {subsubsection}{\numberline {3}Half-Mellin Transform}{173}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{173}{}
+\contentsline {paragraph}{\numberline {}Celestial Amplitude.}{174}{}
+\contentsline {paragraph}{\numberline {}Integral Representation.}{174}{}
+\contentsline {subsection}{\numberline {C}Leaf Amplitude Formulation}{175}{}
+\contentsline {subsubsection}{\numberline {1}Kleinian and Projective Superspaces}{176}{}
+\contentsline {paragraph}{\numberline {}Volume Forms.}{176}{}
+\contentsline {paragraph}{\numberline {}Projective Superspace.}{176}{}
+\contentsline {subsubsection}{\numberline {2}Pre-Leaf Amplitude}{177}{}
+\contentsline {subsubsection}{\numberline {3}Leaf Amplitude}{179}{}
+\contentsline {paragraph}{\numberline {}Notation.}{179}{}
+\contentsline {paragraph}{\numberline {}Preliminaries.}{179}{}
+\contentsline {paragraph}{\numberline {}Dimensional Reduction.}{179}{}
+\contentsline {subsection}{\numberline {D}One-loop Minitwistor Superamplitude}{180}{}
+\contentsline {paragraph}{\numberline {}Celestial/Minitwistor Correspondence.}{180}{}
+\contentsline {paragraph}{\numberline {}Celestial RSVW Representation.}{181}{}
+\contentsline {paragraph}{\numberline {}Minitwistor Amplitude.}{182}{}
+\contentsline {paragraph}{\numberline {}Geometric Interpretation.}{183}{}
+\appendix 
+\contentsline {section}{\numberline {A}Mini-Introduction to Holomorphic Gauge Theory}{183}{}
+\contentsline {subsection}{\numberline {1}Basic Structures}{183}{}
+\contentsline {subsection}{\numberline {2}Partial Connections and Holomorphic Gauge Potentials}{185}{}
+\contentsline {paragraph}{\numberline {}A Technical Aside.}{186}{}
+\contentsline {paragraph}{\numberline {}Semiclassical States.}{186}{}
+\contentsline {subsection}{\numberline {3}Pseudocurvature and Fieldstrength}{188}{}
+\contentsline {paragraph}{\numberline {}Physical Motivation.}{188}{}
+\contentsline {subsubsection}{\numberline {a}Holomorphic Frames}{189}{}
+\contentsline {paragraph}{\numberline {}Holomorphicity.}{189}{}
+\contentsline {subsubsection}{\numberline {b}Existence of a Classical Vacuum}{190}{}
+\contentsline {subsubsection}{\numberline {c}Properties of Pseudocurvature}{192}{}
+\contentsline {paragraph}{\numberline {}Smooth Linearity.}{193}{}
+\contentsline {paragraph}{\numberline {}Structure Equation.}{193}{}
+\contentsline {paragraph}{\numberline {}Bianchi Identity.}{195}{}
+\contentsline {section}{\numberline {}References}{196}{}

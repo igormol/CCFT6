@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: CFT5.aux
+The style file: ../TTCFT/revtex-tds/bibtex/bst/revtex/aipnum4-2.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: CFT5Notes.bib
+Database file #2: CCFT2.bib
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+aipnum4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in Tropper:2024evi
+Warning--missing journal in bateman1918solution
+Warning--missing journal in edward2004parity
+Warning--missing journal in adamo2013moduli
+Warning--missing school in Wolf:2006me
+You've used 104 entries,
+            6039 wiz_defined-function locations,
+            2150 strings with 27793 characters,
+and the built_in function-call counts, 88597 in all, are:
+= -- 6119
+> -- 2361
+< -- 366
++ -- 811
+- -- 581
+* -- 12520
+:= -- 9933
+add.period$ -- 105
+call.type$ -- 104
+change.case$ -- 442
+chr.to.int$ -- 97
+cite$ -- 109
+duplicate$ -- 8299
+empty$ -- 6729
+format.name$ -- 1146
+if$ -- 17229
+int.to.chr$ -- 8
+int.to.str$ -- 113
+missing$ -- 1061
+newline$ -- 364
+num.names$ -- 312
+pop$ -- 3885
+preamble$ -- 1
+purify$ -- 520
+quote$ -- 0
+skip$ -- 3158
+stack$ -- 0
+substring$ -- 2119
+swap$ -- 7304
+text.length$ -- 215
+text.prefix$ -- 0
+top$ -- 8
+type$ -- 1330
+warning$ -- 6
+while$ -- 385
+width$ -- 0
+write$ -- 857
+(There were 6 warnings)

@@ -1,0 +1,80 @@
+\select@language {british}
+\select@language {british}
+\contentsline {title}{Comments on Minitwistors and the Celestial Supersphere}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{4}{}
+\contentsline {paragraph}{\numberline {}Organisation.}{5}{}
+\contentsline {section}{\numberline {II}Minitwistor Wavefunctions}{5}{}
+\contentsline {subsection}{\numberline {A}Physical Motivation}{5}{}
+\contentsline {subsection}{\numberline {B}Review: Minitwistor Penrose Transform and $AdS_{3}$ Wave Equations}{6}{}
+\contentsline {subsubsection}{\numberline {1}Minitwistor Geometry}{7}{}
+\contentsline {subsubsection}{\numberline {2}Scalar Representatives}{8}{}
+\contentsline {subsection}{\numberline {C}Minitwistor Wavefunctions}{9}{}
+\contentsline {subsubsection}{\numberline {1}Definitions}{10}{}
+\contentsline {paragraph}{\numberline {}Twistor Scalar Wavefunction.}{10}{}
+\contentsline {subsubsection}{\numberline {2}Celestial Boels-Mason-Skinner Integral Identity}{11}{}
+\contentsline {subsubsection}{\numberline {3}Celestial Roiban-Spradlin-Volovich-Witten Integral Identity}{13}{}
+\contentsline {section}{\numberline {III}$\mathcal {N}=4$ Supersymmetric Yang-Mills}{14}{}
+\contentsline {subsection}{\numberline {A}Review}{14}{}
+\contentsline {subsubsection}{\numberline {1}Grassmann-valued Spinors; Berezin-de Witt Integral}{15}{}
+\contentsline {subsubsection}{\numberline {2}$\mathcal {N}=4$ SYM Super-amplitude}{16}{}
+\contentsline {subsection}{\numberline {B}Minitwistor Amplitudes for Gluons}{16}{}
+\contentsline {subsubsection}{\numberline {1}Mellin Transform and Leaf Amplitudes}{16}{}
+\contentsline {paragraph}{\numberline {}Leaf Representation.}{17}{}
+\contentsline {subsubsection}{\numberline {2}Celestial RSVW Formalism}{18}{}
+\contentsline {subsection}{\numberline {C}Generating Functional}{20}{}
+\contentsline {paragraph}{\numberline {}Geometrical Interpretation.}{22}{}
+\contentsline {section}{\numberline {IV}$\mathcal {N}=8$ Supergravity}{22}{}
+\contentsline {subsection}{\numberline {A}Review}{22}{}
+\contentsline {subsubsection}{\numberline {1}$\mathbf {CP}^{1}$ Fermionic Doublet}{23}{}
+\contentsline {subsubsection}{\numberline {2}$BGK_{n}$ Formula from $\mathbf {CP}^{1}$ Correlators}{24}{}
+\contentsline {subsubsection}{\numberline {3}Frequency Dependency}{25}{}
+\contentsline {subsubsection}{\numberline {4}$\mathcal {N}=8$ Supergravity}{26}{}
+\contentsline {paragraph}{\numberline {}On-shell Superfield Expansion.}{26}{}
+\contentsline {paragraph}{\numberline {}Superspace.}{27}{}
+\contentsline {subsection}{\numberline {B}Celestial Leaf Amplitudes for Gravitons}{27}{}
+\contentsline {subsubsection}{\numberline {1}Mellin Transform}{27}{}
+\contentsline {subsubsection}{\numberline {2}Gravitational Celestial Leaf Amplitudes}{28}{}
+\contentsline {subsection}{\numberline {C}Celestial RSVW Formalism of $\mathcal {N}=8$ Supergravity}{30}{}
+\contentsline {subsubsection}{\numberline {}Celestial RSVW Formula for Gravitons}{31}{}
+\contentsline {subsection}{\numberline {D}Generating Functional}{32}{}
+\contentsline {subsubsection}{\numberline {1}Preliminaries: A Celestial Correlator}{33}{}
+\contentsline {subsubsection}{\numberline {2}Minitwistor Gravitational Background}{34}{}
+\contentsline {section}{\numberline {V}Minitwistor Celestial CFT}{35}{}
+\contentsline {subsection}{\numberline {A}Physical Motivation}{35}{}
+\contentsline {subsection}{\numberline {B}Action Functional}{36}{}
+\contentsline {subsubsection}{\numberline {}First Step}{36}{}
+\contentsline {subsubsection}{\numberline {}Second Step}{37}{}
+\contentsline {subsection}{\numberline {C}Supersymmetry}{39}{}
+\contentsline {subsubsection}{\numberline {1}Projective Superspace}{40}{}
+\contentsline {subsubsection}{\numberline {2}Minitwistor Superspace}{40}{}
+\contentsline {subsubsection}{\numberline {3}Minitwistor Superlines}{41}{}
+\contentsline {paragraph}{\numberline {}Embedding as a Section.}{42}{}
+\contentsline {subsubsection}{\numberline {4}Construction of the Action}{42}{}
+\contentsline {paragraph}{\numberline {}First Step: Dynamical Variables.}{42}{}
+\contentsline {paragraph}{\numberline {}Second Step: Action Functional }{43}{}
+\contentsline {paragraph}{\numberline {}Celestial Supersphere.}{43}{}
+\contentsline {subsection}{\numberline {D}Phenomenology}{44}{}
+\contentsline {subsubsection}{\numberline {1}Fermionic System}{44}{}
+\contentsline {subsubsection}{\numberline {2}Semiclassical Analysis}{46}{}
+\contentsline {section}{\numberline {VI}Discussion}{47}{}
+\appendix 
+\contentsline {section}{\numberline {A}Minitwistor Geometry}{48}{}
+\contentsline {paragraph}{\numberline {}Note.}{48}{}
+\contentsline {subsection}{\numberline {1}Hyperbolic Space from Projective Geometry}{48}{}
+\contentsline {subsection}{\numberline {2}Minitwistor Space}{49}{}
+\contentsline {subsection}{\numberline {3}The Holomorphic Vector Bundle $\mathcal {O}\left (p,q\right )\longrightarrow \mathbf {MT}$}{51}{}
+\contentsline {paragraph}{\numberline {}Definition. }{51}{}
+\contentsline {paragraph}{\numberline {}Proposition.}{52}{}
+\contentsline {paragraph}{\numberline {}Proof.}{53}{}
+\contentsline {section}{\numberline {B}Leaf Amplitudes Review}{53}{}
+\contentsline {subsection}{\numberline {1}Klein Space}{53}{}
+\contentsline {paragraph}{\numberline {}Time-like Wedge.}{54}{}
+\contentsline {paragraph}{\numberline {}Space-like Wedge.}{55}{}
+\contentsline {subsection}{\numberline {2}Spinor Algebra}{56}{}
+\contentsline {paragraph}{\numberline {}Standard Null-vector.}{57}{}
+\contentsline {subsection}{\numberline {3}Celestial Wavefunctions and the Leaf Amplitude Representation}{57}{}
+\contentsline {section}{\numberline {}References}{59}{}
