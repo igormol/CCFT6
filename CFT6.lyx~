@@ -19548,6 +19548,23 @@ Write
 \begin_inset Formula $S=\left(u_{\mathrm{t}}\right)_{\mathrm{t}=1}^{N}$
 \end_inset
 
+ and let 
+\begin_inset Formula $\varphi\colon S\to\boldsymbol{Z}$
+\end_inset
+
+ be the map 
+\begin_inset Formula $\varphi\left(u_{\mathrm{t}}\right)\coloneqq\mathrm{t}$
+\end_inset
+
+.
+ This map satisfies 
+\begin_inset Formula $u\in\mathcal{L}_{\varphi\left(u\right)}$
+\end_inset
+
+ for all punctures 
+\begin_inset Formula $u\in S$
+\end_inset
+
 .
  The 
 \emph on
@@ -19564,7 +19581,7 @@ generalised Wilson functional
  is then defined by
 \begin_inset Formula 
 \begin{equation}
-\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\mathrm{t}=1}^{N}\,\Theta_{\sigma u_{\mathrm{t}}}^{\boldsymbol{A}}\left[\mathcal{L}_{\mathrm{t}}\right]\:\right).
+\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\sigma'\in S}\,\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}_{\varphi\left(\sigma'\right)}\right]\:\right).
 \end{equation}
 
 \end_inset
@@ -19598,17 +19615,15 @@ We now motivate the definition of the semiclassical correlator of the generalise
 \end_inset
 
  in the localising family as 
-\begin_inset Formula $D1$
+\begin_inset Formula $\mathrm{D}1$
 \end_inset
 
--brane instantons,
- or minitwistor ``strings,'' propagating on a holomorphic-gauge-theory background on 
+-brane instantons (minitwistor ``strings'') propagating on a holomorphic-gauge-theory background on 
 \begin_inset Formula $\mathbf{MT}_{s}$
 \end_inset
 
 .
- In Section V,
- we will formulate this 
+ In Section V we will formulate this 
 \begin_inset Formula $N$
 \end_inset
 
@@ -19618,39 +19633,40 @@ We now motivate the definition of the semiclassical correlator of the generalise
 \end_inset
 
 ,
- as a minitwistor sigma-model governed (semiclassically) by an action functional.
- The multi-string system should be thought of as the ``disconnected'' prescription for calculating the scattering amplitudes.
+ as a minitwistor sigma model governed semiclassically by an action functional.
+ The multi-string system should be understood as the ``disconnected'' prescription for computing scattering amplitudes.
 \end_layout
 
 \begin_layout Standard
-For now,
- it suffices to consider the following fact.
- On the moduli space of the localising family,
+On the moduli space of the localising family,
  fix a point 
 \begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{N}$
 \end_inset
 
 .
- Then the classical configuration of the 
+ The classical configuration of the 
 \begin_inset Formula $m$
 \end_inset
 
--th instanton is represented by an algebraic one-cycle 
+-th instanton is then represented by an algebraic one-cycle 
 \begin_inset Formula $\left[\mathcal{L}_{m}\left(\gamma^{Q}\right)\right]$
 \end_inset
 
 .
- Hence the configuration of the full set of disconnected 
-\begin_inset Formula $D1$
-\end_inset
-
--brane instantons,
- forming the 
+ Hence the configuration of the full set of 
 \begin_inset Formula $N$
 \end_inset
 
--string system,
- is represented by the cycle:
+ disconnected 
+\begin_inset Formula $D1$
+\end_inset
+
+-brane instantons (heuristically,
+ the 
+\begin_inset Formula $N$
+\end_inset
+
+-string system) is represented by the cycle
 \begin_inset Formula 
 \begin{equation}
 \mathscr{S}\left(\gamma^{Q}\right)\;\coloneqq\;\sum_{m=1}^{N}\:\left[\mathcal{L}_{m}\left(\gamma^{Q}\right)\right]\;\in\;\mathrm{Z}_{1}\left(\mathbf{MT}_{s}\right).
@@ -19659,11 +19675,12 @@ For now,
 \end_inset
 
 Rigorously,
- two cycles that are rationally equivalent describes the same topological sector.
- So the physical configuration of the minitwistor ``string'' is the Chow group 
+ two cycles that are rationally equivalent describe the same topological sector.
+ Thus the physical configuration of the minitwistor ``string'' is captured by the Chow group 
 \begin_inset Formula $\mathrm{A}_{1}\left(\mathbf{MT}_{s}\right)$
 \end_inset
 
+,
  obtained by imposing rational equivalence on 
 \begin_inset Formula $\mathrm{Z}_{1}\left(\mathbf{MT}_{s}\right)$
 \end_inset
@@ -19672,8 +19689,7 @@ Rigorously,
 \end_layout
 
 \begin_layout Standard
-Now,
- by the correspondence principle,
+By the correspondence principle,
  there exists a generalised Wilson 
 \emph on
 operator
@@ -19687,8 +19703,7 @@ operator
 \end_inset
 
 .
- On the other hand,
- equipping the moduli space 
+ Equipping the moduli space 
 \begin_inset Formula $\mathscr{M}_{N}$
 \end_inset
 
@@ -19697,15 +19712,62 @@ operator
 \end_inset
 
 ,
- we identify the pair 
+ we identify 
 \begin_inset Formula $\left(\mathscr{M}_{N},d\boldsymbol{\Omega}\right)$
 \end_inset
 
- as the semiclassical statistical ensemble of the 
+ as the 
+\emph on
+semiclassical statistical ensemble
+\emph default
+ of the 
 \begin_inset Formula $N$
 \end_inset
 
--string system
+-string system.
+ This 
+\emph on
+ensemble
+\emph default
+ describes the topological sector comprising the disconnected 
+\begin_inset Formula $D1$
+\end_inset
+
+-brane instanton configuration with 
+\begin_inset Formula $N$
+\end_inset
+
+ components on 
+\begin_inset Formula $\mathbf{MT}_{s}$
+\end_inset
+
+.
+ The semiclassical expectation value of 
+\begin_inset Formula $\boldsymbol{W}\left[\mathscr{S};S\right]$
+\end_inset
+
+ is obtained by averaging the 
+\begin_inset Formula $c$
+\end_inset
+
+-number functional 
+\begin_inset Formula $\mathrm{W}\left[\mathscr{S};S\right]$
+\end_inset
+
+ over all classically allowed configurations of the 
+\begin_inset Formula $N$
+\end_inset
+
+-string system.
+ We thus posit 
+\begin_inset Formula 
+\begin{equation}
+\lim_{b\to0}\;\left\langle \boldsymbol{W}_{\vec{\alpha},S}\left[\mathscr{S}\right]\right\rangle _{\mathbf{MT}}\;\coloneqq\;\int_{\:\mathscr{M}_{N}}\;d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)\;\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S}\left(\gamma^{Q}\right);S\right].
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection

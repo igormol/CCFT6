@@ -19121,12 +19121,11 @@ Let
 \end_inset
 
  and 
-\begin_inset Formula $1\leq k\leq n-1$
+\begin_inset Formula $k=0,\dots,n-1$
 \end_inset
 
- be integers.
- In what follows,
- we consider the tree-level scattering process of 
+.
+ We consider the tree-level scattering of 
 \begin_inset Formula $n$
 \end_inset
 
@@ -19134,7 +19133,7 @@ Let
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
- configuration using the minitwistor formalism.
+ configuration in the minitwistor formalism.
  We refer to 
 \begin_inset Formula $k$
 \end_inset
@@ -19149,7 +19148,8 @@ Let
 \begin_inset Formula $k=1$
 \end_inset
 
- to an next-to-MHV configuration and so on.
+ to a next-to-MHV configuration,
+ and so on.
 \end_layout
 
 \begin_layout Standard
@@ -19162,7 +19162,7 @@ The localisation theorem established in Section III gives a geometric interpreta
 \end_inset
 
  SYM.
- The theorem states that the 
+ It states that the 
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
@@ -19192,7 +19192,7 @@ The partial leaf-gluon amplitudes
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
- associated to the lines 
+ associated with the lines 
 \begin_inset Formula $\mathcal{L}_{1},\dots,\mathcal{L}_{N}$
 \end_inset
 
@@ -19204,7 +19204,7 @@ The partial leaf-gluon amplitudes
 
 \end_inset
 
-obeying the inequalities
+obeying
 \begin_inset Formula 
 \begin{equation}
 2\leq a_{1}<a_{2}<\dots<a_{k}<b_{k}<\dots<b_{2}<b_{1}\le n-1.
@@ -19216,24 +19216,24 @@ This index structure of the partial
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
- amplitudes derives directly from the corresponding structure of the dual conformal invariants 
+ amplitudes follows directly from the corresponding structure of the dual conformal invariants 
 \begin_inset Formula $R_{n;\vec{\alpha}}$
 \end_inset
 
 .
- Another consequence of the 
-\begin_inset Formula $R$
+ A further consequence of the 
+\begin_inset Formula $R\text{-}$
 \end_inset
 
--invariants is that the lines in the localising family are marked by special points encoded in an ordered-list 
+invariants is that the lines in the localising family carry marked points encoded by the ordered list
 \begin_inset Formula 
 \begin{equation}
-S=\left(z_{a_{1}},z_{a_{2}},\dots,z_{a_{k}};z_{b_{1}},z_{b_{2}},\dots,z_{b_{k}};z_{1}\right).
+S=\left(z_{a_{1}},z_{a_{2}},\dots,z_{a_{k}};z_{b_{1}},z_{b_{2}},\dots,z_{b_{k}};z_{1}\right),
 \end{equation}
 
 \end_inset
 
-Here 
+where 
 \begin_inset Formula $z_{i}$
 \end_inset
 
@@ -19242,7 +19242,7 @@ Here
 \end_inset
 
 -th gluon on the celestial sphere 
-\begin_inset Formula $\mathcal{CS}\cong\mathbf{CP}^{1}$
+\begin_inset Formula $\mathcal{CS}$
 \end_inset
 
 .
@@ -19258,30 +19258,30 @@ The geometric configuration of the localising family on
 \end_inset
 
 ,
- which is globally charted by coordinates 
+ globally charted by coordinates 
 \begin_inset Formula $\gamma^{Q}$
 \end_inset
 
 .
- Hence there corresponds to each point 
+ To each point 
 \begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{N}$
 \end_inset
 
- a configuration 
+ there corresponds a configuration 
 \begin_inset Formula $\mathcal{L}_{m}=\mathcal{L}_{m}\left(\gamma^{Q}\right)$
 \end_inset
 
- of minitwistor lines.
- Hereafter we index by 
+ of minitwistor lines,
+ which we index by 
 \begin_inset Formula $m=1,\dots,N$
 \end_inset
 
- the lines in the localising family.
- We also denote by 
+.
+ We denote by 
 \begin_inset Formula $d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)$
 \end_inset
 
- the standard measure orienting the moduli space of 
+ the standard measure that orients the moduli space of 
 \begin_inset Formula $N$
 \end_inset
 
@@ -19289,7 +19289,7 @@ The geometric configuration of the localising family on
 \begin_inset Formula $S$
 \end_inset
 
- subordinated to the multi-index 
+ and subordinated to the multi-index 
 \begin_inset Formula $\vec{\alpha}$
 \end_inset
 
@@ -19297,23 +19297,22 @@ The geometric configuration of the localising family on
 \end_layout
 
 \begin_layout Standard
-Therefore,
- the geometric interpretation proceeding from the localisation theorem is that the partial amplitude 
+The localisation theorem then implies that the partial amplitude 
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
  vanishes whenever the insertion points assigned to the external gluons fail to lie on the localising family.
- Recall that the map that assigns the 
+ The assignment of the 
 \begin_inset Formula $i$
 \end_inset
 
--th gluon to the line to which it belongs,
- subordinated to the multi-index 
+-th gluon to its supporting line,
+ subordinated to 
 \begin_inset Formula $\vec{\alpha}$
 \end_inset
 
 ,
- is the cluster-indicator function 
+ is encoded by the cluster-indicator function 
 \begin_inset Formula $c_{\vec{\alpha}}\left(i\right)$
 \end_inset
 
@@ -19336,9 +19335,10 @@ Therefore,
 \begin_inset Formula $a_{1}\leq i\leq a_{2}-1$
 \end_inset
 
+,
  and so on.
  Thus 
-\begin_inset Formula $[\mathsf{Z}_{i}^{I}]\in\mathcal{L}_{c_{\vec{\alpha}}\left(i\right)}$
+\begin_inset Formula $\left[\mathsf{Z}_{i}^{I}\right]\in\mathcal{L}_{c_{\vec{\alpha}}\left(i\right)}$
 \end_inset
 
 ,
@@ -19354,20 +19354,20 @@ Therefore,
 \end_layout
 
 \begin_layout Standard
-A final and important geometric consequence of the localisation theorem is that the tree-level leaf-gluon amplitude 
+Another geometric consequence of the localisation theorem is that the tree-level leaf-gluon amplitude 
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
- can be expressed as a (weighted) volume integral over the moduli space 
+ admits a (weighted) volume representation as an integral over the moduli space 
 \begin_inset Formula $\mathscr{M}_{N}$
 \end_inset
 
- with the measure 
+ with measure 
 \begin_inset Formula $d\boldsymbol{\Omega}_{\vec{\alpha},S}$
 \end_inset
 
 .
- This observation will be important below when we discuss the semiclassical expectation value of the generalised Wilson operator.
+ This observation will be used below when we discuss the semiclassical expectation value of the generalised Wilson operator.
 \end_layout
 
 \begin_layout Standard
@@ -19532,11 +19532,7 @@ Definition.
 \end_layout
 
 \begin_layout Standard
-Take the formal linear combination of 
-\begin_inset Formula $\left[\mathcal{L}_{m}\right]$
-\end_inset
-
- to form the algebraic one-cycle:
+Form the algebraic one-cycle
 \begin_inset Formula 
 \begin{equation}
 \mathscr{S}\coloneqq\sum_{m=1}^{N}[\mathcal{L}_{m}]\;\in\;\mathrm{Z}_{1}\left(\mathbf{MT}_{s}\right).
@@ -19544,25 +19540,30 @@ Take the formal linear combination of
 
 \end_inset
 
-Write 
-\begin_inset Formula $S=\left(u_{\mathrm{t}}\right)_{\mathrm{t}=1}^{N}$
+Let 
+\begin_inset Formula $S=\left(u_{t}\right)_{t=1}^{N}$
 \end_inset
 
- and let 
-\begin_inset Formula $\varphi\colon S\to\boldsymbol{Z}$
+ be the ordered list of marked points and define a map 
+\begin_inset Formula $\varphi\colon S\to\mathbf{Z}$
 \end_inset
 
- be the map 
-\begin_inset Formula $\varphi\left(u_{\mathrm{t}}\right)\coloneqq\mathrm{t}$
+ by 
+\begin_inset Formula $\varphi\left(u_{t}\right)\coloneqq t$
 \end_inset
 
 .
- This map satisfies 
+ By construction,
+ 
 \begin_inset Formula $u\in\mathcal{L}_{\varphi\left(u\right)}$
 \end_inset
 
- for all punctures 
-\begin_inset Formula $u\in S$
+ for each puncture 
+\begin_inset Formula $u$
+\end_inset
+
+ in 
+\begin_inset Formula $S$
 \end_inset
 
 .
@@ -19574,24 +19575,29 @@ generalised Wilson functional
 \begin_inset Formula $\mathscr{S}$
 \end_inset
 
- with marked points 
+ with marked set 
 \begin_inset Formula $S$
 \end_inset
 
- is then defined by
+ is 
 \begin_inset Formula 
 \begin{equation}
-\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\sigma'\in S}\,\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}_{\varphi\left(\sigma'\right)}\right]\:\right).
+\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\sigma'\in S}\,\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}_{\varphi\left(\sigma'\right)}\right]\:\right),
 \end{equation}
 
 \end_inset
 
-Here 
+where 
 \begin_inset Formula $\sigma$
 \end_inset
 
- is an arbitrarily chosen reference point that drops out from the vacuum expectation values of 
-\begin_inset Formula $\mathrm{W}$
+ is an arbitrarily chosen reference point.
+ The dependence on 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ drops out of vacuum expectation values of 
+\begin_inset Formula $\mathrm{W}\left[\mathscr{S};S\right]$
 \end_inset
 
 ,
