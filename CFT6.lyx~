@@ -134,6 +134,7 @@ Federal University of Minas Gerais
 \end_layout
 
 \begin_layout Author Email
+
 igormol@ime.unicamp.br
 \end_layout
 
@@ -19116,17 +19117,7 @@ Physical Motivation
 \end_layout
 
 \begin_layout Standard
-Let 
-\begin_inset Formula $n\geq3$
-\end_inset
-
- and 
-\begin_inset Formula $1\leq k\leq n-1$
-\end_inset
-
- be integers.
- In what follows,
- we consider the tree-level scattering process of 
+Consider the tree-level scattering of 
 \begin_inset Formula $n$
 \end_inset
 
@@ -19134,7 +19125,7 @@ Let
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
- configuration using the minitwistor formalism.
+ configuration in the minitwistor formalism.
  We refer to 
 \begin_inset Formula $k$
 \end_inset
@@ -19149,7 +19140,8 @@ Let
 \begin_inset Formula $k=1$
 \end_inset
 
- to an next-to-MHV configuration and so on.
+ to a next-to-MHV configuration,
+ and so on.
 \end_layout
 
 \begin_layout Standard
@@ -19162,7 +19154,7 @@ The localisation theorem established in Section III gives a geometric interpreta
 \end_inset
 
  SYM.
- The theorem states that the 
+ It states that the 
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
@@ -19192,7 +19184,7 @@ The partial leaf-gluon amplitudes
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
- associated to the lines 
+ associated with the lines 
 \begin_inset Formula $\mathcal{L}_{1},\dots,\mathcal{L}_{N}$
 \end_inset
 
@@ -19204,7 +19196,7 @@ The partial leaf-gluon amplitudes
 
 \end_inset
 
-obeying the inequalities
+obeying
 \begin_inset Formula 
 \begin{equation}
 2\leq a_{1}<a_{2}<\dots<a_{k}<b_{k}<\dots<b_{2}<b_{1}\le n-1.
@@ -19216,24 +19208,24 @@ This index structure of the partial
 \begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
- amplitudes derives directly from the corresponding structure of the dual conformal invariants 
+ amplitudes follows directly from the corresponding structure of the dual conformal invariants 
 \begin_inset Formula $R_{n;\vec{\alpha}}$
 \end_inset
 
 .
- Another consequence of the 
-\begin_inset Formula $R$
+ A further consequence of the 
+\begin_inset Formula $R\text{-}$
 \end_inset
 
--invariants is that the lines in the localising family are marked by special points encoded in an ordered-list 
+invariants is that the lines in the localising family carry marked points encoded by the ordered list
 \begin_inset Formula 
 \begin{equation}
-S=\left(z_{a_{1}},z_{a_{2}},\dots,z_{a_{k}};z_{b_{1}},z_{b_{2}},\dots,z_{b_{k}};z_{1}\right).
+S=\left(z_{a_{1}},z_{a_{2}},\dots,z_{a_{k}};z_{b_{k}},z_{b_{k-1}},\dots,z_{b_{1}};z_{1}\right),
 \end{equation}
 
 \end_inset
 
-Here 
+where 
 \begin_inset Formula $z_{i}$
 \end_inset
 
@@ -19242,7 +19234,7 @@ Here
 \end_inset
 
 -th gluon on the celestial sphere 
-\begin_inset Formula $\mathcal{CS}\cong\mathbf{CP}^{1}$
+\begin_inset Formula $\mathcal{CS}$
 \end_inset
 
 .
@@ -19258,30 +19250,30 @@ The geometric configuration of the localising family on
 \end_inset
 
 ,
- which is globally charted by coordinates 
+ globally charted by coordinates 
 \begin_inset Formula $\gamma^{Q}$
 \end_inset
 
 .
- Hence there corresponds to each point 
+ To each point 
 \begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{N}$
 \end_inset
 
- a configuration 
+ there corresponds a configuration 
 \begin_inset Formula $\mathcal{L}_{m}=\mathcal{L}_{m}\left(\gamma^{Q}\right)$
 \end_inset
 
- of minitwistor lines.
- Hereafter we index by 
+ of minitwistor lines,
+ which we index by 
 \begin_inset Formula $m=1,\dots,N$
 \end_inset
 
- the lines in the localising family.
- We also denote by 
+.
+ We denote by 
 \begin_inset Formula $d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)$
 \end_inset
 
- the standard measure orienting the moduli space of 
+ the standard measure that orients the moduli space of 
 \begin_inset Formula $N$
 \end_inset
 
@@ -19289,7 +19281,7 @@ The geometric configuration of the localising family on
 \begin_inset Formula $S$
 \end_inset
 
- subordinated to the multi-index 
+ and subordinated to the multi-index 
 \begin_inset Formula $\vec{\alpha}$
 \end_inset
 
@@ -19297,23 +19289,22 @@ The geometric configuration of the localising family on
 \end_layout
 
 \begin_layout Standard
-Therefore,
- the geometric interpretation proceeding from the localisation theorem is that the partial amplitude 
+The localisation theorem then implies that the partial amplitude 
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
  vanishes whenever the insertion points assigned to the external gluons fail to lie on the localising family.
- Recall that the map that assigns the 
+ The assignment of the 
 \begin_inset Formula $i$
 \end_inset
 
--th gluon to the line to which it belongs,
- subordinated to the multi-index 
+-th gluon to its supporting line,
+ subordinated to 
 \begin_inset Formula $\vec{\alpha}$
 \end_inset
 
 ,
- is the cluster-indicator function 
+ is encoded by the cluster-indicator function 
 \begin_inset Formula $c_{\vec{\alpha}}\left(i\right)$
 \end_inset
 
@@ -19336,9 +19327,10 @@ Therefore,
 \begin_inset Formula $a_{1}\leq i\leq a_{2}-1$
 \end_inset
 
+,
  and so on.
  Thus 
-\begin_inset Formula $[\mathsf{Z}_{i}^{I}]\in\mathcal{L}_{c_{\vec{\alpha}}\left(i\right)}$
+\begin_inset Formula $\left[\mathsf{Z}_{i}^{I}\right]\in\mathcal{L}_{c_{\vec{\alpha}}\left(i\right)}$
 \end_inset
 
 ,
@@ -19354,29 +19346,30 @@ Therefore,
 \end_layout
 
 \begin_layout Standard
-A final and important geometric consequence of the localisation theorem is that the tree-level leaf-gluon amplitude 
+Another geometric consequence of the localisation theorem is that the tree-level leaf-gluon amplitude 
 \begin_inset Formula $\mathcal{M}_{n;\vec{\alpha}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
 \end_inset
 
- can be expressed as a (weighted) volume integral over the moduli space 
+ admits a (weighted) volume representation as an integral over the moduli space 
 \begin_inset Formula $\mathscr{M}_{N}$
 \end_inset
 
- with the measure 
+ with measure 
 \begin_inset Formula $d\boldsymbol{\Omega}_{\vec{\alpha},S}$
 \end_inset
 
 .
- This observation will be important below when we discuss the semiclassical expectation value of the generalised Wilson operator.
+ This observation will be used below when we discuss the semiclassical expectation value of the generalised Wilson operator.
 \end_layout
 
 \begin_layout Standard
-In the preceding subsection we showed that the leaf-gluon tree amplitudes with MHV level 
+In the preceding subsection,
+ we showed that leaf-gluon tree amplitudes with MHV level 
 \begin_inset Formula $k=0$
 \end_inset
 
- can be generated by the semiclassical expectation value of a conventional Wilson-line operator 
-\begin_inset Formula $\boldsymbol{W}[\mathcal{L}]$
+ are generated by the semiclassical expectation value of a conventional Wilson-line operator 
+\begin_inset Formula $\boldsymbol{W}\left[\mathcal{L}\right]$
 \end_inset
 
 .
@@ -19386,12 +19379,12 @@ In the preceding subsection we showed that the leaf-gluon tree amplitudes with M
 
 ,
  a minitwistor line,
- which is an irreducible rational curve on minitwistor superspace with bidegree 
+ which is an irreducible rational curve in minitwistor superspace of bidegree 
 \begin_inset Formula $\left(1,1\right)$
 \end_inset
 
 .
- Now we wish to construct a field-theory interpretation for leaf-gluon amplitudes with MHV level 
+ We now seek a field-theory interpretation of leaf-gluon amplitudes with MHV level 
 \begin_inset Formula $k>0$
 \end_inset
 
@@ -19405,32 +19398,29 @@ In the preceding subsection we showed that the leaf-gluon tree amplitudes with M
 \end_layout
 
 \begin_layout Standard
-We propose to use the notion of algebraic cycles on minitwistor superspace.
+We propose to use algebraic cycles on minitwistor superspace.
  In general,
- an algebraic cycle on an algebraic scheme 
+ for an algebraic scheme 
 \begin_inset Formula $\mathscr{X}$
 \end_inset
 
- is a formal linear combination of subvarieties of 
-\begin_inset Formula $\mathscr{X}$
-\end_inset
-
-.
- Analysing the algebraic cycles on 
-\begin_inset Formula $\mathscr{X}$
-\end_inset
-
- is a sophisticated method to study the algebraic topology of 
+,
+ an algebraic cycle is a formal linear combination of subvarieties of 
 \begin_inset Formula $\mathscr{X}$
 \end_inset
 
 .
- To be explicit,
+ Studying algebraic cycles provides a powerful method for probing the algebraic topology of 
+\begin_inset Formula $\mathscr{X}$
+\end_inset
+
+.
+ Explicitly,
  a 
-\begin_inset Formula $k$
+\begin_inset Formula $k\text{-}$
 \end_inset
 
--cycle on 
+cycle on 
 \begin_inset Formula $\mathscr{X}$
 \end_inset
 
@@ -19439,87 +19429,62 @@ We propose to use the notion of algebraic cycles on minitwistor superspace.
 \end_inset
 
 ,
- where 
+ where each 
 \begin_inset Formula $V_{i}$
 \end_inset
 
- are 
+ is a 
 \begin_inset Formula $k$
 \end_inset
 
--dimensional subvarieties of 
+-dimensional subvariety of 
 \begin_inset Formula $\mathscr{X}$
 \end_inset
 
-,
  and 
-\begin_inset Formula $n_{i}$
+\begin_inset Formula $n_{i}\in\mathbf{Z}$
 \end_inset
 
- are integers.
- The group of 
-\begin_inset Formula $k$
+.
+ In this work we are concerned with one-dimensional cycles;
+ so,
+ we denote by 
+\begin_inset Formula $\mathrm{Z}_{1}\left(\mathscr{X}\right)$
 \end_inset
 
--cycles on 
-\begin_inset Formula $\mathscr{X}$
-\end_inset
-
- is thus the free abelian group on the 
-\begin_inset Formula $k$
-\end_inset
-
--dimensional subvarieties of 
+ the free abelian group generated by one-dimensional subvarieties of 
 \begin_inset Formula $\mathscr{X}$
 \end_inset
 
 ,
- denoted by 
-\begin_inset Formula $\mathrm{Z}_{1}\left(\mathscr{X}\right)$
+ and write 
+\begin_inset Formula $\left[V\right]\in\mathrm{Z}_{1}\left(\mathscr{X}\right)$
 \end_inset
 
-;
- to a subvariety 
-\begin_inset Formula $V$
-\end_inset
-
- of 
-\begin_inset Formula $\mathscr{X}$
-\end_inset
-
- corresponds 
-\begin_inset Formula $[V]$
-\end_inset
-
- in 
-\begin_inset Formula $\mathrm{Z}_{1}\left(\mathscr{X}\right)$
+ for the class of a curve 
+\begin_inset Formula $V\subset\mathscr{X}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-We are interested in the case where 
-\begin_inset Formula $\mathscr{X}$
-\end_inset
-
- is the minitwistor superspace 
-\begin_inset Formula $\mathbf{MT}_{s}$
+We specialise to the case 
+\begin_inset Formula $\mathscr{X}=\mathbf{MT}_{s}$
 \end_inset
 
 ,
- which is a supersymmetric quadric,
- and the subvarieties are the lines 
+ the supersymmetric quadric defining minitwistor superspace.
+ The subvarieties of interest are the lines 
 \begin_inset Formula $\mathcal{L}_{1},\dots,\mathcal{L}_{N}$
 \end_inset
 
- in the localising family,
+ of the localising family,
  which are conic curves on 
 \begin_inset Formula $\mathbf{MT}_{s}$
 \end_inset
 
 .
- 
 \end_layout
 
 \begin_layout Standard
@@ -19532,11 +19497,7 @@ Definition.
 \end_layout
 
 \begin_layout Standard
-Take the formal linear combination of 
-\begin_inset Formula $\left[\mathcal{L}_{m}\right]$
-\end_inset
-
- to form the algebraic one-cycle:
+Form the algebraic one-cycle
 \begin_inset Formula 
 \begin{equation}
 \mathscr{S}\coloneqq\sum_{m=1}^{N}[\mathcal{L}_{m}]\;\in\;\mathrm{Z}_{1}\left(\mathbf{MT}_{s}\right).
@@ -19544,25 +19505,30 @@ Take the formal linear combination of
 
 \end_inset
 
-Write 
-\begin_inset Formula $S=\left(u_{\mathrm{t}}\right)_{\mathrm{t}=1}^{N}$
+Let 
+\begin_inset Formula $S=\left(u_{t}\right)_{t=1}^{N}$
 \end_inset
 
- and let 
-\begin_inset Formula $\varphi\colon S\to\boldsymbol{Z}$
+ be the ordered list of marked points and define a map 
+\begin_inset Formula $\varphi\colon S\to\mathbf{Z}$
 \end_inset
 
- be the map 
-\begin_inset Formula $\varphi\left(u_{\mathrm{t}}\right)\coloneqq\mathrm{t}$
+ by 
+\begin_inset Formula $\varphi\left(u_{t}\right)\coloneqq t$
 \end_inset
 
 .
- This map satisfies 
+ By construction,
+ 
 \begin_inset Formula $u\in\mathcal{L}_{\varphi\left(u\right)}$
 \end_inset
 
- for all punctures 
-\begin_inset Formula $u\in S$
+ for each puncture 
+\begin_inset Formula $u$
+\end_inset
+
+ in 
+\begin_inset Formula $S$
 \end_inset
 
 .
@@ -19574,24 +19540,29 @@ generalised Wilson functional
 \begin_inset Formula $\mathscr{S}$
 \end_inset
 
- with marked points 
+ with marked set 
 \begin_inset Formula $S$
 \end_inset
 
- is then defined by
+ is 
 \begin_inset Formula 
 \begin{equation}
-\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\sigma'\in S}\,\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}_{\varphi\left(\sigma'\right)}\right]\:\right).
+\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;\coloneqq\;\mathrm{Tr}\:\left(\:\prod_{\sigma'\in S}\,\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}_{\varphi\left(\sigma'\right)}\right]\:\right),\label{eq:-197}
 \end{equation}
 
 \end_inset
 
-Here 
+where 
 \begin_inset Formula $\sigma$
 \end_inset
 
- is an arbitrarily chosen reference point that drops out from the vacuum expectation values of 
-\begin_inset Formula $\mathrm{W}$
+ is an arbitrarily chosen reference point.
+ The dependence on 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ drops out of vacuum expectation values of 
+\begin_inset Formula $\mathrm{W}\left[\mathscr{S};S\right]$
 \end_inset
 
 ,
@@ -19759,10 +19730,10 @@ ensemble
 \end_inset
 
 -string system.
- We thus posit 
+ We thus posit
 \begin_inset Formula 
 \begin{equation}
-\lim_{b\to0}\;\left\langle \boldsymbol{W}_{\vec{\alpha},S}\left[\mathscr{S}\right]\right\rangle _{\mathbf{MT}}\;\coloneqq\;\int_{\:\mathscr{M}_{N}}\;d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)\;\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S}\left(\gamma^{Q}\right);S\right].
+\lim_{b\to0}\;\left\langle \boldsymbol{W}_{\vec{\alpha},S}\left[\mathscr{S}\right]\right\rangle _{\mathbf{MT}}\;\coloneqq\;\int_{\:\mathscr{M}_{N}}\;d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)\;\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S}\left(\gamma^{Q}\right);S\right].\label{eq:-200}
 \end{equation}
 
 \end_inset
@@ -19770,364 +19741,272 @@ ensemble
 
 \end_layout
 
-\begin_layout Subsubsection
-Next Steps;
- Geometrical Motivation
+\begin_layout Paragraph*
+Program Outline.
 \end_layout
 
 \begin_layout Standard
-Now we turn to the problem of identifying an observable in our holomorphic gauge theory whose semiclassical expectation value reproduces the 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
+We now explain how to reproduce the tree-level celestial 
+\begin_inset Formula $\mathcal{S}$
 \end_inset
 
- sectors of leaf-gluon amplitudes.
- From Section III we learned that the 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- minitwistor superamplitudes in 
+-matrix for gluons in 
 \begin_inset Formula $\mathcal{N}=4$
 \end_inset
 
- SYM localise on a family 
-\begin_inset Formula $\Sigma$
-\end_inset
-
- of minitwistor lines 
-\begin_inset Formula $\mathcal{L}_{1},\dots,\mathcal{L}_{2k+1}$
+ SYM from semiclassical correlators of generalised Wilson operators supported on algebraic cycles in minitwistor superspace.
+ For clarity,
+ we first derive in detail the leaf-gluon tree amplitudes at MHV levels 
+\begin_inset Formula $k=1,2$
 \end_inset
 
 .
- But whereas the configuration space of a single minitwistor line 
-\begin_inset Formula $\mathcal{L}$
+ We then extend the construction to an arbitrary tree-level 
+\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
 \end_inset
 
- is the hyperbolic superspace 
-\begin_inset Formula $\mathbf{H}_{s}$
+ gluon sector.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\mathrm{N}^{1}\text{-}\mathrm{MHV}$
+\end_inset
+
+ Configurations
+\end_layout
+
+\begin_layout Standard
+Consider the tree-level scattering of 
+\begin_inset Formula $n$
+\end_inset
+
+ gluons in an 
+\begin_inset Formula $\mathrm{N}^{1}\text{-MHV}$
+\end_inset
+
+ configuration.
+ The localisation theorem implies that the leaf amplitude for this process localises on minitwistor lines 
+\begin_inset Formula $\mathcal{L}_{1}$
 \end_inset
 
 ,
- the configuration space of the entire family 
-\begin_inset Formula $\Sigma$
+ 
+\begin_inset Formula $\mathcal{L}_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathcal{L}_{3}$
+\end_inset
+
+.
+ This localising family is parameterised by the moduli superspace
+\begin_inset Formula 
+\begin{equation}
+\mathscr{M}_{3}\;=\;\mathbf{H}_{s}\times\mathcal{P}.
+\end{equation}
+
+\end_inset
+
+Here 
+\begin_inset Formula $\mathbf{H}_{s}$
 \end_inset
 
  is the 
-\emph on
-moduli superspace
-\emph default
-
-\begin_inset Formula 
-\begin{equation}
-\mathscr{M}_{2k+1}\;=\;\mathbf{H}_{s}\times\mathcal{P}_{1}\times\mathcal{P}_{2}\times\dots\times\mathcal{P}_{k}.
-\end{equation}
-
+\begin_inset Formula $(3|8)$
 \end_inset
 
-Each factor 
-\begin_inset Formula $\mathcal{P}_{\ell}$
+-dimensional hyperbolic superspace and 
+\begin_inset Formula $\mathcal{P}$
 \end_inset
 
-,
- for 
-\begin_inset Formula $\ell=1,\dots,k$
-\end_inset
-
-,
- is called a 
-\emph on
-parameter space
-\emph default
- and corresponds to one next-to-MHV particle.
- In the split-signature required by the leaf formalism,
- 
-\begin_inset Formula $\mathcal{P}_{\ell}\cong\mathbf{R}^{8|4}$
-\end_inset
-
-,
- but here we analytically continue these spaces to complex supermanifolds,
- 
-\begin_inset Formula $\mathcal{P}_{\ell}\cong\mathbf{C}^{8|4}$
+ is the parameter space.
+ When we derived the leaf amplitude in Section III,
+ we used the split-signature for which 
+\begin_inset Formula $\mathcal{P}\cong\mathbf{R}^{8|4}$
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-We chart each parameter space by
-\begin_inset Formula 
-\begin{equation}
-\tau_{\ell}^{M}\;=\;\big(u_{\ell}^{A},\,v_{\ell}^{B},\,\widetilde{u}_{\ell\dot{A}},\,\widetilde{v}_{\ell\dot{B}},\,\chi_{\ell}^{\alpha}\big),\label{eq:-223}
-\end{equation}
-
-\end_inset
-
-and we denote homogeneous coordinates on 
-\begin_inset Formula $\mathbf{H}_{s}$
-\end_inset
-
- by 
-\begin_inset Formula $\mathsf{X}^{K}$
-\end_inset
-
-.
- Thus the full moduli superspace 
-\begin_inset Formula $\mathscr{M}_{2k+1}$
-\end_inset
-
- admits the global chart:
-\begin_inset Formula 
-\begin{equation}
-\gamma^{Q}\;=\;\big(\mathsf{X}^{K},\tau_{1}^{M_{1}},\tau_{2}^{M_{2}},\dots,\tau_{k}^{M_{k}}\big),\label{eq:-204}
-\end{equation}
-
-\end_inset
-
-which we call the 
-\emph on
-moduli coordinates
-\emph default
-.
- We equip 
-\begin_inset Formula $\mathscr{M}_{2k+1}$
-\end_inset
-
- with its standard orientation via the volume superform
-\begin_inset Formula 
-\begin{equation}
-\mathcal{D}\gamma\;=\;D^{3|8}\mathsf{X}\,\wedge\,d^{8|4}\tau_{1}\,\wedge\,d^{8|4}\tau_{2}\,\wedge\,\dots\,\wedge\,d^{8|4}\tau_{k},\label{eq:-224}
-\end{equation}
-
-\end_inset
-
-where each 
-\begin_inset Formula $d^{8|4}\tau_{\ell}$
-\end_inset
-
- is the Berezin-DeWitt form on 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
-.
- Consequently,
- when we compute a semiclassical expectation value of a Wilson-like observable supported on 
-\begin_inset Formula $\Sigma$
-\end_inset
-
-,
- we replace the integral over 
-\begin_inset Formula $\mathbf{H}_{s}$
-\end_inset
-
- by an integral over 
-\begin_inset Formula $\mathscr{M}_{2k+1}$
-\end_inset
-
- against the measure 
-\begin_inset Formula $\mathcal{D}\gamma$
+ Now we perform the analytic continuation to 
+\begin_inset Formula $\mathcal{P}\cong\mathbf{C}^{8|4}$
 \end_inset
 
 .
 \end_layout
 
 \begin_layout Standard
-How can we generalise the operator 
-\begin_inset Formula $\mathbb{W}[\mathcal{L}]$
-\end_inset
-
-,
- which is supported on a single minitwistor line 
-\begin_inset Formula $\mathcal{L}$
-\end_inset
-
-,
- to an observable supported on a family 
-\begin_inset Formula $\Sigma$
-\end_inset
-
-?
- To address this question,
- we recall the geometry of the collection of lines 
-\begin_inset Formula $\Sigma=\{\mathcal{L}_{1},\dots,\mathcal{L}_{2k+1}\}$
-\end_inset
-
-.
- Each line 
+To introduce the dictionary between semiclassical correlators of generalised Wilson operators and tree amplitudes for gluons,
+ we briefly review how the geometric configuration of lines 
 \begin_inset Formula $\mathcal{L}_{m}$
 \end_inset
 
- carries 
-\emph on
-moduli functions
-\emph default
+ 
+\begin_inset Formula $\left(m=1,2,3\right)$
+\end_inset
 
+ is parameterised by points in 
+\begin_inset Formula $\mathscr{M}_{3}$
+\end_inset
+
+.
+ The parameter space 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+ is covered by coordinates:
 \begin_inset Formula 
 \begin{equation}
-\mathcal{Q}_{m}^{A\dot{A}}=\mathcal{Q}_{m}^{A\dot{A}}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}},\dots,\tau_{k}^{M_{k}}\big),\quad q_{m}^{\alpha A}=q_{m}^{\alpha A}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}},\dots,\tau_{k}^{M_{k}}\big),
+\tau^{M}\;=\;\left(u^{A},v^{B},\widetilde{u}_{\dot{A}},\widetilde{v}_{\dot{B}},\chi^{\alpha}\right).
 \end{equation}
 
 \end_inset
 
-defined on the parameter spaces 
-\begin_inset Formula $\mathcal{P}_{1},\dots,\mathcal{P}_{k}$
+These coordinates are called moduli parameters.
+ The full moduli superspace 
+\begin_inset Formula $\mathscr{M}_{3}$
 \end_inset
 
- inside the moduli superspace 
-\begin_inset Formula $\mathscr{M}_{2k+1}$
+ is then globally charted by
+\begin_inset Formula 
+\begin{equation}
+\gamma^{Q}\;=\;\left(\mathsf{X}^{K},\tau^{M}\right),
+\end{equation}
+
 \end_inset
 
-.
- Together with the superspace coordinates 
-\begin_inset Formula $\mathsf{X}^{K}=\big(X_{A\dot{A}},\theta_{A}^{\alpha}\big)$
+where 
+\begin_inset Formula $\mathsf{X}^{K}=\left(X_{A\dot{A}},\theta_{A}^{\alpha}\right)$
 \end_inset
 
- charting 
+ are the standard coordinates on the supersymmetric hyperboloid 
 \begin_inset Formula $\mathbf{H}_{s}$
 \end_inset
 
-,
- these functions determine the i
+.
+\end_layout
+
+\begin_layout Standard
+In Subsection III.A,
+ we assigned to each line 
+\begin_inset Formula $\mathcal{L}_{m}$
+\end_inset
+
+ in the localising family a collection of 
 \emph on
-ncidence maps
+moduli functions
+\emph default
+ on the parameter space 
+\begin_inset Formula $\mathcal{P}$
+\end_inset
+
+,
+\begin_inset Formula 
+\begin{equation}
+\mathcal{Q}_{m}^{A\dot{A}}=\mathcal{Q}_{m}^{A\dot{A}}\left(\tau^{M}\right),\qquad q_{m}^{\alpha A}=q_{m}^{\alpha A}\left(\tau^{M}\right).
+\end{equation}
+
+\end_inset
+
+Their components are defined in Table (X) of Subsection III.A (see p.
+ A).
+ From these quantities we constructed the 
+\emph on
+characteristic functions
+\emph default
+ of the 
+\begin_inset Formula $m$
+\end_inset
+
+-th line:
+\begin_inset Formula 
+\begin{equation}
+Y_{m}^{A\dot{A}}\left(\gamma^{Q}\right)\;\coloneqq\;X^{A\dot{A}}+\mathcal{Q}_{m}^{A\dot{A}}\left(\tau^{M}\right),\qquad\xi_{m}^{\alpha A}\left(\gamma^{Q}\right)\;\coloneqq\;\theta^{\alpha A}+q_{m}^{\alpha A}\left(\tau^{M}\right),
+\end{equation}
+
+\end_inset
+
+which define the 
+\emph on
+evaluation maps
+\emph default
+ of 
+\begin_inset Formula $\mathcal{L}_{m}\left(\gamma^{Q}\right)$
+\end_inset
+
+ by:
+\begin_inset Formula 
+\begin{equation}
+\Phi_{m\dot{A}}\left(\lambda^{A};\gamma^{Q}\right)\;\coloneqq\;\lambda^{A}\,Y_{mA\dot{A}}\left(\gamma^{Q}\right),\qquad\varphi_{m}^{\alpha}\left(\lambda^{A};\gamma^{Q}\right)\;\coloneqq\;\lambda^{A}\,\xi_{mA}^{\alpha}\left(\gamma^{Q}\right).
+\end{equation}
+
+\end_inset
+
+Therefore,
+ the line 
+\begin_inset Formula $\mathcal{L}_{m}\left(\gamma^{Q}\right)$
+\end_inset
+
+ can be identified with the set of points 
+\begin_inset Formula $\mathsf{W}^{I}$
+\end_inset
+
+ in minitwistor superspace satisfying the 
+\emph on
+incidence relations
 \emph default
 
 \begin_inset Formula 
 \begin{equation}
-Y_{m}^{A\dot{A}}(\gamma^{Q})\;\coloneqq\;X^{A\dot{A}}+\mathcal{Q}_{m}^{A\dot{A}}(\tau_{\ell}^{M}),\quad\xi_{m}^{\alpha A}(\gamma^{Q})\;\coloneqq\;\theta^{\alpha A}+q_{m}^{\alpha A}(\tau_{\ell}^{M}).
+\mathsf{W}^{I}=\left(\lambda^{A},\mu_{\dot{A}},\psi^{\alpha}\right)\in\mathcal{L}_{m}\left(\gamma^{Q}\right)\quad\iff\quad\mu_{\dot{A}}=\Phi_{m\dot{A}}\left(\lambda^{A};\gamma^{Q}\right),\quad\psi^{\alpha}=\varphi_{m}^{\alpha}\left(\lambda^{A};\gamma^{Q}\right).
 \end{equation}
 
 \end_inset
 
-In these terms,
- each minitwistor line 
-\begin_inset Formula $\mathcal{L}_{m}\in\Sigma$
-\end_inset
 
- is specified by the incidence relations
-\begin_inset Formula 
-\begin{equation}
-\mu_{\dot{A}}\;=\;\lambda^{A}Y_{mA\dot{A}}(\gamma^{Q}),\quad\psi^{\alpha}\;=\;\lambda^{A}\xi_{mA}^{\alpha}(\gamma^{Q}).
-\end{equation}
-
-\end_inset
-
-In addition,
- the family 
-\begin_inset Formula $\Sigma$
-\end_inset
-
- is an ordered set.
- Its orientation is required by the index structure of the dual conformal 
-\begin_inset Formula $R$
-\end_inset
-
--invariants
-\begin_inset Formula 
-\begin{equation}
-R_{n;a_{1}b_{1},a_{2}b_{2},\dots,a_{k}b_{k}}
-\end{equation}
-
-\end_inset
-
-which assigns each gluon in the scattering amplitude to a specific line (or cluster) in 
-\begin_inset Formula $\Sigma$
-\end_inset
-
-.
- We implemented this assignment in Section III via the indicator map 
-\begin_inset Formula $c(i)$
-\end_inset
-
-,
- which sends the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon to its cluster.
 \end_layout
 
 \begin_layout Standard
-Thus,
- our main problem becomes:
- how can we formalise a gauge-invariant,
- Wilson-like operator that depends on an oriented family of minitwistor lines,
- respects the analytic structure of the moduli superspace 
-\begin_inset Formula $\mathscr{M}_{2k+1}$
-\end_inset
-
-,
- and captures the algebraic-geometric character of a minitwistor line,
- namely,
- a conic,
- rational curve with conormal bundle 
-\begin_inset Formula $\mathcal{O}_{\mathbf{C}}(2)$
-\end_inset
-
- embedded in the supersymmetric nonsingular quadric 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
-?
-\end_layout
-
-\begin_layout Standard
-We begin with the notion of algebraic cycles from intersection theory.
- Recall from Chapter 1,
- 
-\begin_inset Formula $\S\,3$
-\end_inset
-
- of 
-\begin_inset CommandInset citation
-LatexCommand citet
-key "fulton2013intersection"
-literal "false"
-
-\end_inset
-
- that,
- for an algebraic scheme 
+The final piece of information needed to completely specify the configuration of the localising family is given by the ordered set 
 \begin_inset Formula $S$
 \end_inset
 
-,
- a 
-\begin_inset Formula $k$
-\end_inset
-
--cycle is a finite formal sum 
-\begin_inset Formula $\sum_{i}\,a_{i}[T_{i}]$
-\end_inset
-
-,
- where each 
-\begin_inset Formula $T_{i}$
-\end_inset
-
- is a 
-\begin_inset Formula $k$
-\end_inset
-
--dimensional subvariety of 
-\begin_inset Formula $S$
-\end_inset
-
- and each 
-\begin_inset Formula $a_{i}\in\mathbf{Z}$
+ of special points on the lines 
+\begin_inset Formula $\mathcal{L}_{m}$
 \end_inset
 
 .
- The group of all such cycles is 
-\begin_inset Formula $\mathrm{Z}_{k}(S)$
+ To define 
+\begin_inset Formula $S$
 \end_inset
 
 ,
- the free Abelian group generated by the 
-\begin_inset Formula $k$
+ let
+\begin_inset Formula 
+\begin{equation}
+\mathcal{I}_{1}\left(n\right)\;\coloneqq\;\left\{ \vec{\alpha}=\left(a,b\right)\in\mathbf{Z}^{2}\,\big|\,2\leq a<b\leq n-1\right\} 
+\end{equation}
+
 \end_inset
 
--dimensional subvarieties of 
-\begin_inset Formula $S$
+be an index family,
+ where the subscript refers to the MHV level 
+\begin_inset Formula $k=1$
+\end_inset
+
+.
+ Fix a multi-index 
+\begin_inset Formula $\vec{\alpha}\in\mathcal{I}_{1}(n)$
+\end_inset
+
+ and let
+\begin_inset Formula 
+\begin{equation}
+S\;=\;\left(z_{a},z_{b},z_{1}\right)
+\end{equation}
+
+\end_inset
+
+be the ordered set of special points on the localising family subordinated to the multi-index 
+\begin_inset Formula $\vec{\alpha}$
 \end_inset
 
 .
@@ -20135,1114 +20014,138 @@ literal "false"
 
 \begin_layout Standard
 Now,
- each minitwistor line 
-\begin_inset Formula $\mathcal{L}_{m}$
+ from a physical perspective,
+ the algebraic one-cycle 
+\begin_inset Formula $\left[\mathcal{L}_{m}\left(\gamma^{Q}\right)\right]$
 \end_inset
 
- is a conic curve on the nonsingular quadric 
+ corresponds to a connected component of a 
+\begin_inset Formula $\mathrm{D}1\text{-}$
+\end_inset
+
+brane instanton residing on the quadric 
 \begin_inset Formula $\mathbf{MT}_{s}$
 \end_inset
 
 .
- Hence the ordered family 
-\begin_inset Formula $\Sigma=\big\{\mathcal{L}_{1},\,\dots,\,\mathcal{L}_{2k+1}\big\}$
-\end_inset
-
- defines an algebraic one-cycle
+ So we may heuristically refer to each line in the localising family as a minitwistor ``string.'' Taking the formal linear combination of these components then yields the cycle
 \begin_inset Formula 
 \begin{equation}
-\mathscr{S}_{2k+1}\;\coloneqq\;\sum_{m=1}^{2k+1}\big[\mathcal{L}_{m}\big]\;\in\;\mathrm{Z}_{1}\big(\mathbf{MT}_{s}\big).
+\mathscr{S}\left(\gamma^{Q}\right)\;=\;\sum_{m=1}^{3}\,\left[\mathcal{L}_{m}\left(\gamma^{Q}\right)\right],
 \end{equation}
 
 \end_inset
 
-This cycle encodes the orientation of the lines and respects their algebraic-geometric embedding in 
-\begin_inset Formula $\mathbf{MT}_{s}$
+which represents the configuration of the full three-component 
+\begin_inset Formula $\mathrm{D}1$
 \end_inset
 
-.
- We then introduce the 
-\emph on
-holonomy operator
-\emph default
- supported on 
-\begin_inset Formula $\mathscr{S}_{2k+1}$
-\end_inset
+-brane instanton,
+ which we think of as a three-string system on minitwistor superspace.
+\end_layout
 
- as:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{Hol}\big[\mathscr{S}_{2k+1}\big]\;=\;\mathrm{P}\left(\langle\mathcal{L}_{1}|u_{1}][u_{1}|\mathcal{L}_{2}|v_{1}][v_{1}|\mathcal{L}_{3}|u_{2}]\,\dots\,[u_{k}|\mathcal{L}_{2k}|v_{k}][v_{k}|\mathcal{L}_{2k+1}\rangle\right),
-\end{equation}
-
-\end_inset
-
-where 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- denotes path ordering.
- The basic building blocks 
-\begin_inset Formula $\langle\mathcal{L}|u]$
-\end_inset
-
-,
- 
-\begin_inset Formula $[u|\mathcal{L}|v]$
-\end_inset
-
- and 
-\begin_inset Formula $[v|\mathcal{L}\rangle$
-\end_inset
-
- will be defined below.
- This functional acts on the one-cycles in 
-\begin_inset Formula $\mathrm{Z}_{1}(\mathbf{MT}_{s})$
-\end_inset
-
- and on the moduli parameters 
-\begin_inset Formula $u_{\ell}^{A},v_{\ell}^{A}$
-\end_inset
-
- introduced in Eq.
+\begin_layout Standard
+Using the definition of the generalised Wilson functional stated in Eq.
  (
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:-204"
-nolink "false"
+reference "eq:-197"
 
 \end_inset
 
-).
- Finally,
- we obtain the 
-\emph on
-Wilson operator
-\emph default
- by tracing over the gauge algebra:
-\begin_inset Formula 
-\begin{equation}
-\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{2k+1}\big]\;\coloneqq\;\mathsf{Tr}_{\mathfrak{g}}\,\mathrm{Hol}\big[\mathscr{S}_{2k+1}\big].
-\end{equation}
-
-\end_inset
-
-This nonlocal,
- gauge-invariant observable probes the holomorphic gauge theory along the cycle 
-\begin_inset Formula $\mathscr{S}_{2k+1}$
-\end_inset
-
-.
- In the sigma-model picture,
- 
-\begin_inset Formula $\mathscr{S}_{2k+1}$
-\end_inset
-
- represents the classical configuration of a system of 
-\begin_inset Formula $2k+1$
-\end_inset
-
- minitwistor strings.
- We will demonstrate that the semiclassical expectation value of 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
- serves as the generating functional for the 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- leaf-gluon amplitudes.
-\end_layout
-
-\begin_layout Standard
-We now proceed to define the building blocks of the holonomy operator.
-\end_layout
-
-\begin_layout Subsubsection
-Building Blocks;
- Product Rules
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Product-Rules"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-In the CCFT framework,
- we regard the holonomy 
-\begin_inset Formula $\mathrm{Hol}[\mathscr{S}]$
-\end_inset
-
- as a composite operator in the usual CFT sense.
- We order its elementary building blocks by each line's position in the cycle:
- beginning,
- intermediate,
- or end.
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-Elementary Blocks.
-\end_layout
-
-\begin_layout Standard
-For the initial line 
-\begin_inset Formula $\mathcal{L}_{1}$
+),
+ we find that the observable which probes the instanton configuration represented by the cycle 
+\begin_inset Formula $\mathscr{S}$
 \end_inset
 
 ,
- we define the operator:
+ with special points 
+\begin_inset Formula $S$
+\end_inset
+
+,
+ is given by:
 \begin_inset Formula 
 \begin{equation}
-\langle\mathcal{L}_{1}|u]\;\coloneqq\;\mathrm{Pexp}\left(-\frac{1}{2\pi i}\underset{\mathcal{L}_{1}\,\,\,\,\,}{\int}\boldsymbol{a}(u;\lambda^{A})\wedge\boldsymbol{A}\big|_{\mathcal{L}_{1}}(\lambda^{A})\right).\label{eq:-213}
+\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;=\;\mathsf{Tr}\,\left(\Theta_{\sigma z_{a}}^{\boldsymbol{A}}\left[\mathcal{L}_{1}\right]\,\Theta_{\sigma z_{b}}^{\boldsymbol{A}}\left[\mathcal{L}_{2}\right]\,\Theta_{\sigma z_{1}}^{\boldsymbol{A}}\left[\mathcal{L}_{3}\right]\right).\label{eq:-199}
 \end{equation}
 
 \end_inset
 
-The Green differential 
-\begin_inset Formula $\boldsymbol{a}(u;\lambda^{A})\in\Omega_{\mathfrak{m}}^{1,0}\big(\mathcal{L}_{1};\mathcal{O}_{\mathbf{C}}(1)\big)$
+Hence our next task is to use the formal expansion of the holonomy operator 
+\begin_inset Formula $\Theta_{\sigma\sigma'}^{\boldsymbol{A}}\left[\mathcal{L}\right]$
 \end_inset
 
- satisfies:
-\begin_inset Formula 
-\begin{equation}
-\frac{1}{2\pi i}\,\overline{\partial}_{\!\lambda}\big|_{\mathcal{L}_{in}}\;\boldsymbol{a}\big(u;\lambda^{A}\big)\;-\;\overline{\delta}(\lambda\!\cdot\!u)\wedge D\lambda\;=\;0,
-\end{equation}
-
+ (see Eq.
+ (X)) to evaluate the correlator of 
+\begin_inset Formula $\mathrm{W}\left[\mathscr{S};S\right]$
 \end_inset
 
-and the path-ordered wedge of 
-\begin_inset Formula $\boldsymbol{a}$
-\end_inset
-
- over points 
-\begin_inset Formula $\{\lambda_{i}^{A}\}_{i=1}^{a-1}$
-\end_inset
-
- is:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{P}\!\bigwedge_{i=1}^{a-1}\,\boldsymbol{a}\big(u;\lambda_{i}^{A}\big)\;=\;\frac{D\lambda_{1}\wedge D\lambda_{2}\wedge\dots\wedge D\lambda_{a-1}}{\langle\lambda_{1},\lambda_{2}\rangle\langle\lambda_{2},\lambda_{3}\rangle\dots\langle\lambda_{a-2},\lambda_{a-1}\rangle\langle\lambda_{a-1},u\rangle}.\label{eq:-205}
-\end{equation}
-
-\end_inset
-
-
+.
+ 
 \end_layout
 
 \begin_layout Standard
-For a line 
-\begin_inset Formula $\mathcal{L}_{m}$
+Define,
+ for each multi-index 
+\begin_inset Formula $\vec{\beta}\coloneqq(p,q)\in\mathcal{I}_{1}\left(n\right)$
 \end_inset
 
- in the middle of the cycle,
- we set:
+,
+ the integrand:
 \begin_inset Formula 
 \begin{equation}
-[u|\mathcal{L}_{m}|v]\;\coloneqq\;\mathrm{Pexp}\left(-\frac{1}{2\pi i}\underset{\mathcal{L}_{m}\,\,\,\,\,}{\int}\boldsymbol{b}(u,v;\lambda^{A})\wedge\boldsymbol{A}\big|_{\mathcal{L}_{m}}(\lambda^{A})\right).\label{eq:-214}
+\mathrm{D}_{\vec{\beta,S}}^{(1)}\left(\lambda_{1},\dots,\lambda_{n}\right)\;\coloneqq\;C_{\sigma z_{a}}\left(\lambda_{1},\dots,\lambda_{p-1}\right)\,C_{\sigma z_{b}}\left(\lambda_{p},\dots,\lambda_{q-1}\right)\,C_{\sigma z_{1}}\left(\lambda_{q},\dots,\lambda_{n}\right).
 \end{equation}
 
 \end_inset
 
-The Green differential 
-\begin_inset Formula $\boldsymbol{b}(u,v;\lambda^{A})\in\Omega_{\mathfrak{m}}^{1,0}(\mathcal{L}_{m};\mathbf{C})$
-\end_inset
-
- satisfies:
-\begin_inset Formula 
-\begin{equation}
-\frac{1}{2\pi i}\,\overline{\partial}_{\!\lambda}\big|_{\mathcal{L}_{m}}\;\boldsymbol{b}\big(u,v;\lambda^{A}\big)\;+\;\boldsymbol{K}\big(u,v;\lambda^{A}\big)\wedge D\lambda=0,
-\end{equation}
-
-\end_inset
-
-with the 
-\begin_inset Formula $(0,1)$
-\end_inset
-
--current:
-\begin_inset Formula 
-\begin{equation}
-\boldsymbol{K}\big(u,v;\lambda^{A}\big)\;\coloneqq\;\frac{1}{\langle u,v\rangle}\,\big(\overline{\delta}(u\!\cdot\!\lambda)-\overline{\delta}(v\!\cdot\!\lambda)\big)\;\in\;\mathscr{D}'_{0,1}\big(\mathcal{L}_{m};\,\mathcal{O}_{\mathbf{C}}(-1)\big).
-\end{equation}
-
-\end_inset
-
-The path-ordered wedge of 
-\begin_inset Formula $\boldsymbol{b}$
-\end_inset
-
- over points 
-\begin_inset Formula $\{\lambda_{i}^{A}\}_{i=a}^{b-1}$
+Recall,
+ in addition,
+ that the cluster-indicator function subordinated to 
+\begin_inset Formula $\vec{\beta}$
 \end_inset
 
  is
 \begin_inset Formula 
 \begin{equation}
-\mathrm{P}\!\bigwedge_{i=a}^{b-1}\,\boldsymbol{b}\big(u,v;\lambda_{i}^{A}\big)\;=\;\frac{D\lambda_{a}\wedge D\lambda_{a+1}\wedge\dots\wedge D\lambda_{b-1}}{\langle u,\lambda_{a}\rangle\langle\lambda_{a},\lambda_{a+1}\rangle\dots\langle\lambda_{b-2},\lambda_{b-1}\rangle\langle\lambda_{b-1},v\rangle}.\label{eq:-206}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-For the final line 
-\begin_inset Formula $\mathcal{L}_{f}\coloneqq\mathcal{L}_{2k+1}$
-\end_inset
-
-,
- we define:
-\begin_inset Formula 
-\begin{equation}
-[v|\mathcal{L}_{f}\rangle\;\coloneqq\;\mathrm{Pexp}\left(-\frac{1}{2\pi i}\underset{\mathcal{L}_{f}\,\,\,\,\,}{\int}\boldsymbol{c}(v;\lambda^{A})\wedge\boldsymbol{A}\big|_{\mathcal{L}_{f}}(\lambda^{A})\right).\label{eq:-215}
-\end{equation}
-
-\end_inset
-
-The Green differential 
-\begin_inset Formula $\boldsymbol{c}(v;\lambda^{A})\in\Omega_{\mathfrak{m}}^{1,0}\big(\mathcal{L}_{f};\,\mathcal{O}_{\mathbf{C}}(1)\big)$
-\end_inset
-
- obeys:
-\begin_inset Formula 
-\begin{equation}
-\frac{1}{2\pi i}\,\overline{\partial}_{\!\lambda}\big|_{\mathcal{L}_{f}}\;\boldsymbol{c}\big(v;\lambda^{A}\big)\;+\;\overline{\delta}(\lambda\!\cdot\!v)\wedge D\lambda\;=\;0.
-\end{equation}
-
-\end_inset
-
-Its path-ordered wedge is:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{P}\!\bigwedge_{i=b}^{n}\,\boldsymbol{c}\big(v;\lambda_{i}^{A}\big)\;=\;\frac{D\lambda_{b}\wedge D\lambda_{b+1}\wedge\dots\wedge D\lambda_{n}}{\langle v,\lambda_{b}\rangle\langle\lambda_{b},\lambda_{b+1}\rangle\dots\langle\lambda_{n-1},\lambda_{n}\rangle\langle\lambda_{n},\lambda_{n+1}\rangle}.\label{eq:-207}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Combining Eqs.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-205"
-nolink "false"
-
-\end_inset
-
-),
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-206"
-nolink "false"
-
-\end_inset
-
-) and (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-207"
-nolink "false"
-
-\end_inset
-
-),
- path ordering yields:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{P}\left(\;\bigwedge_{i=1}^{a-1}\,\boldsymbol{a}\big(u;\lambda_{i}^{A}\big)\bigwedge_{i'=a}^{b-1}\,\boldsymbol{b}\big(u,v;\lambda_{i'}^{B}\big)\bigwedge_{i''=b}^{n}\,\boldsymbol{c}\big(v;\lambda_{i''}^{C}\big)\right)\;=\;\mathcal{F}_{ab}^{\lambda}(u,v)\,\bigwedge_{j=1}^{n}\,\frac{D\lambda_{j}}{\lambda_{j}\cdot\lambda_{j+1}},\label{eq:-209}
-\end{equation}
-
-\end_inset
-
-where:
-\begin_inset Formula 
-\begin{equation}
-\mathcal{F}_{ab}^{\lambda}(u,v)\;\coloneqq\;\frac{\langle\lambda_{a-1},\lambda_{a}\rangle\langle\lambda_{b-1},\lambda_{b}\rangle}{\langle\lambda_{a-1},u\rangle\langle u,\lambda_{a}\rangle\langle\lambda_{b-1},v\rangle\langle v,\lambda_{b}\rangle}.\label{eq:-210}
-\end{equation}
-
-\end_inset
-
-This reproduces the 
-\begin_inset Formula $\mathcal{F}$
-\end_inset
-
--function from Section III in terms of the spinors 
-\begin_inset Formula $\lambda_{i}^{A}$
-\end_inset
-
- instead of the celestial coordinates 
-\begin_inset Formula $z_{i}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-Product Rules.
-\end_layout
-
-\begin_layout Standard
-Here we define how the path-ordering symbol 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- organises a product of Lie-algebra-valued exponentials.
- The operator 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- orders factors according to the index structure of the dual conformal 
-\begin_inset Formula $R$
-\end_inset
-
--invariants.
- As a result,
- gluons in the scattering process group into clusters,
- where each cluster lies on one of the minitwistor lines that support the amplitude.
-\end_layout
-
-\begin_layout Standard
-To define the path-ordering operator 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
-,
- we first introduce preliminary notation and definitions.
- In particular,
- we formalise the concept of a 
-\emph on
-path-ordered wedge
-\emph default
-,
- which represents the elementary building blocks of the holonomy operator introduced above.
-\end_layout
-
-\begin_layout Standard
-Let 
-\begin_inset Formula $\{\mathscr{L}_{i}\}_{i=1}^{N}$
-\end_inset
-
- denote a family of rational curves.
- We do not assume these curves lie in 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
- or support 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- minitwistor superamplitudes;
- they may lie in any algebraic variety.
- For each line 
-\begin_inset Formula $\mathscr{L}_{i}$
-\end_inset
-
-,
- define its 
-\begin_inset Formula $n$
-\end_inset
-
--fold Cartesian product by:
-\begin_inset Formula 
-\begin{equation}
-\mathscr{L}_{i}^{n}\;\coloneqq\;\underbrace{\mathscr{L}_{i}\,\times\,\dots\,\times\,\mathscr{L}_{i}}_{n\text{-times}}.
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Next,
- introduce Green differentials 
-\begin_inset Formula $\{\varphi_{i}\}_{i=1}^{N}$
-\end_inset
-
- with 
-\begin_inset Formula $\varphi_{i}\in\Omega_{\mathfrak{m}}^{1,0}(\mathscr{L}_{i})$
-\end_inset
-
-,
- and Lie-algebra-valued 
-\begin_inset Formula $(0,1)$
-\end_inset
-
--forms 
-\begin_inset Formula $\{\boldsymbol{B}_{i}\}_{i=1}^{N}$
-\end_inset
-
- with 
-\begin_inset Formula $\boldsymbol{B}_{i}\in\Omega^{0,1}(\mathscr{L}_{i};\mathfrak{g})$
-\end_inset
-
-.
- In our application,
- the 
-\begin_inset Formula $\varphi_{i}$
-\end_inset
-
- serve as the fundamental solutions 
-\begin_inset Formula $\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}$
-\end_inset
-
- of the CR operator 
-\begin_inset Formula $\overline{\partial}\big|_{\mathscr{L}_{i}}$
-\end_inset
-
-.
- The 
-\begin_inset Formula $\boldsymbol{B}_{i}$
-\end_inset
-
- represent the gauge potential induced on each 
-\begin_inset Formula $\mathscr{L}_{i}$
-\end_inset
-
- via pull-back.
- Finally,
- introduce a formal coupling constant 
-\begin_inset Formula $g$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-Then each factor
-\begin_inset Formula 
-\begin{equation}
-\mathrm{Pexp}\left(\;g\int_{\mathscr{L}_{i}}\varphi_{i}\wedge\boldsymbol{B}_{i}\right)
-\end{equation}
-
-\end_inset
-
-is called the 
-\emph on
-path-ordered wedge
-\emph default
- of 
-\begin_inset Formula $\varphi_{i}$
-\end_inset
-
- over 
-\begin_inset Formula $\mathscr{L}_{i}$
-\end_inset
-
-.
- In this terminology,
- the holonomy operator 
-\begin_inset Formula $\mathrm{Hol}[\mathscr{S}]$
-\end_inset
-
- arises by applying the path-ordering symbol 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- to the product of these wedges over the minitwistor lines that form the cycle 
-\begin_inset Formula $\mathscr{S}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-We encode the index structure of the order-
-\begin_inset Formula $N$
-\end_inset
-
- dual conformal invariant
-\begin_inset Formula 
-\[
-R_{n;a_{1}b_{1},a_{2}b_{2},\dots,a_{N}b_{N}}
-\]
-
-\end_inset
-
-into the path-ordering symbol 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- via the index family:
-\begin_inset Formula 
-\begin{equation}
-I_{N}^{n}\;\coloneqq\;\big\{\,\vec{a}=(a_{0},\dots,a_{N})\in\mathbf{Z}^{N+1}\,\big|\,a_{0}=1,\,a_{N}=n+1;\,2\leq a_{1}<a_{2}<\dots<a_{N-1}\leq n-1\,\big\}.
-\end{equation}
-
-\end_inset
-
-With this notation,
- the action of 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- on 
-\begin_inset Formula $N$
-\end_inset
-
- wedges is:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{P}\left(\;\prod_{k=1}^{N}\,e^{g\int_{\mathscr{L}_{k}}\varphi_{k}\wedge\boldsymbol{B}_{k}}\right)\;=\;\mathbb{I}_{\mathfrak{g}}\,+\,\sum_{n\geq N+1}\;g^{n}\;\sum_{\vec{a}\in I_{N}^{n}}\;\;\prod_{k=1}^{N}\;\;\underset{\Lambda_{k,\vec{a}}\,\,\,}{\int}\;\mathrm{P}\!\bigwedge_{j\in J_{k,\vec{a}}}\,\varphi_{k}(\lambda_{j}^{A})\wedge\boldsymbol{B}_{k}(\lambda_{j}^{A}).\label{eq:-208}
-\end{equation}
-
-\end_inset
-
-Here the integration domain is:
-\begin_inset Formula 
-\begin{equation}
-\Lambda_{k,\vec{a}}\;\coloneqq\;\mathscr{L}_{k}^{a_{k}-a_{k-1}},
-\end{equation}
-
-\end_inset
-
-and the index set for the exterior product reads:
-\begin_inset Formula 
-\begin{equation}
-J_{k,\vec{a}}\;\coloneqq\;\big\{\,j\in\mathbf{Z}\,\big|\,a_{k-1}\leq j\leq a_{k}-1\,\big\}.
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-This completes the specification of the elementary blocks of the holonomy operator and the action of 
-\begin_inset Formula $\mathrm{P}$
-\end_inset
-
- on its defining wedges.
- We now turn to the computation of the Wilson line on algebraic one-cycles and its semiclassical expectation value.
- We will show that this expectation value serves as the generating functional for all tree-level 
-\begin_inset Formula $S$
-\end_inset
-
--matrix elements in 
-\begin_inset Formula $\mathcal{N}=4$
-\end_inset
-
- SYM theory.
-\end_layout
-
-\begin_layout Subsubsection
-Holonomy,
- Wilson Lines and Amplitudes
-\end_layout
-
-\begin_layout Standard
-The previous subsections extended our Wilson line operator 
-\begin_inset Formula $\mathbb{W}[\mathcal{L}]$
-\end_inset
-
-,
- originally supported on a single minitwistor line 
-\begin_inset Formula $\mathcal{L}\subset\mathbf{MT}_{s}$
-\end_inset
-
-,
- to the observable 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
-,
- where 
-\begin_inset Formula $\mathscr{S}\in\mathrm{Z}_{1}(\mathbf{MT}_{s})$
-\end_inset
-
- is an algebraic one-cycle.
- This observable measures how a background gauge field deforms the holomorphic vacuum along 
-\begin_inset Formula $\mathscr{S}$
-\end_inset
-
-.
- We now compute its expectation value over the family of minitwistor lines introduced in Section III.
- From this calculation,
- we derive a dictionary that maps these holomorphic gauge theory observables on minitwistor superspace to the tree-level 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
--matrix of 
-\begin_inset Formula $\mathcal{N}=4$
-\end_inset
-
- SYM theory.
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-\begin_inset Formula $\mathrm{N}^{1}\text{-}\mathrm{MHV}$
-\end_inset
-
- Sector.
-\end_layout
-
-\begin_layout Standard
-In Subsection III.1,
- we showed that the 
-\begin_inset Formula $\mathrm{N}^{1}\text{-MHV}$
-\end_inset
-
- minitwistor superamplitudes for gluons decompose into partial amplitudes 
-\begin_inset Formula $\widetilde{M}_{n;ab}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{W}_{i}^{I}\big)$
-\end_inset
-
-.
- For brevity,
- we call these the 
-\emph on
-gluonic minitwistor amplitudes
-\emph default
-.
- The labels 
-\begin_inset Formula $a,b$
-\end_inset
-
- arise from the dual conformal invariant 
-\begin_inset Formula $R_{n;ab}$
-\end_inset
-
-.
- Without loss of generality,
- we fix
-\begin_inset Formula 
-\begin{equation}
-2\leq a<b\leq n-2,
-\end{equation}
-
-\end_inset
-
-since all other orderings follow by permutation.
-\end_layout
-
-\begin_layout Standard
-Using the celestial RSVW identity,
- we found that 
-\begin_inset Formula $\widetilde{M}_{n;ab}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
-\end_inset
-
- localises on three minitwistor lines 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- for 
-\begin_inset Formula $m=1,2,3$
-\end_inset
-
-.
- The external gluons then group into clusters:
- the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon lies on
-\begin_inset Formula 
-\begin{equation}
-\begin{cases}
-\mathcal{L}_{1}, & \text{if }1\leq i\leq a-1;\\
-\mathcal{L}_{2}, & \text{if }a\leq i\leq b-1;\\
-\mathcal{L}_{3}, & \text{if }b\leq i\leq n.
+c_{\vec{b}}\left(i\right)\;\coloneqq\;\begin{cases}
+1, & 1\leq i\leq p-1;\\
+2, & p\leq i\leq q-1;\\
+3, & q\leq i\leq n.
 \end{cases}
 \end{equation}
 
 \end_inset
 
-We formalise this assignment by the 
-\emph on
-indicator function
-\emph default
-:
+Consequently,
+ expanding the holonomy operators in Eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:-199"
+
+\end_inset
+
+) and reorganising the resulting integrals gives
 \begin_inset Formula 
-\begin{equation}
-c_{ab}(i)\;\coloneqq\;\begin{cases}
-1, & i\in[1,a-1];\\
-2, & i\in[a,b-1];\\
-3, & i\in[b,n].
-\end{cases}
-\end{equation}
+\begin{align}
+ & \mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S};S\right]\;=\\
+ & \sum_{n\geq4}\:\left(-1\right)^{n}\:\sum_{\vec{\beta}\in\mathcal{I}_{1}\left(n\right)}\:\int_{\:\left(\mathbf{CP}^{1}\right)^{\times n}}\;\mathsf{Tr}\,\left(\,\bigwedge_{i=1}^{n}\,\left(D\lambda_{i}\wedge\boldsymbol{A}\big|_{\mathcal{L}_{c_{\vec{\beta}}}(i)}\left(\lambda_{i}^{A}\right)\right)\,\right)\;\mathrm{D}_{\vec{\beta},S}^{\left(1\right)}\left(\lambda_{1},\dots,\lambda_{n}\right)+\dots
+\end{align}
 
 \end_inset
 
-This function assigns each gluon label 
-\begin_inset Formula $i$
-\end_inset
-
- to its corresponding cluster 
-\begin_inset Formula $c_{ab}(i)$
+where the dots represent the terms arising from contractions involving the gauge Lie algebra identity 
+\begin_inset Formula $\mathrm{id}_{\mathfrak{g}}$
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-We associate a set of creation and annihilation operators to each minitwistor line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
-.
- Denote by 
-\begin_inset Formula $\alpha_{m}^{\Delta,\mathsf{a}}$
-\end_inset
-
- the mode functions for gluons on 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
-.
- Physically,
- these functions give the classical expectation values of the annihilation operators.
- Now,
- combining this observation with Eq.
+ These contributions will be later removed by Berezin integration appearing in the definition of the correlator in Eq.
  (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:-200"
-nolink "false"
-
-\end_inset
-
-),
- we decompose the gauge potential induced on 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- as:
-\begin_inset Formula 
-\begin{equation}
-\boldsymbol{A}\big|_{\mathcal{L}_{m}}\,(\lambda_{i}^{A})\;=\;2\pi i\;\underset{\mathbf{MT}_{s}^{*}\,\,\,}{\int}\;\Psi_{\Delta_{i}}\big|_{\mathcal{L}_{m}}\big(\lambda_{i}^{A};\mathsf{Z}_{i}'^{I}\big)\,\alpha_{m}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\,\mathsf{T}^{\mathsf{a}_{i}}\wedge D^{2|4}\mathsf{Z}_{i}'.\label{eq:-217}
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-This organisation of mode coefficients and their associated creation and annihilation operators across the three minitwistor lines provides the physical motivation for interpreting celestial amplitudes in terms of a minitwistor sigma-model.
- We thus identify each line on which the amplitude localises as a semiclassical configuration of a minitwistor string.
- Consequently,
- an 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- amplitude arises from the correlation functions of a many-body system of 
-\begin_inset Formula $2k+1$
-\end_inset
-
- such strings.
-\end_layout
-
-\begin_layout Standard
-To proceed,
- we briefly review the geometric interpretation of minitwistor amplitudes.
- The family of lines 
-\begin_inset Formula $\{\mathcal{L}_{m}\}_{m=1}^{3}$
-\end_inset
-
- is parametrised by the moduli superspace
-\begin_inset Formula 
-\begin{equation}
-\mathscr{M}_{3}\;=\;\mathbf{H}_{s}\times\mathcal{P},
-\end{equation}
-
-\end_inset
-
-where 
-\begin_inset Formula $\mathcal{P}$
-\end_inset
-
- denotes the parameter space for the single next-to-MHV particle.
- In Kleinian signature,
- 
-\begin_inset Formula $\mathcal{P}\cong\mathbf{R}^{8|4}$
-\end_inset
-
-.
- Here,
- we analytically continue to the complex category,
- so that 
-\begin_inset Formula $\mathcal{P}\cong\mathbf{C}^{8|4}$
-\end_inset
-
-.
- We chart 
-\begin_inset Formula $\mathcal{P}$
-\end_inset
-
- by coordinates:
-\begin_inset Formula 
-\begin{equation}
-\tau^{M}\;=\;\big(u^{A},\,v^{B},\,\widetilde{u}_{\dot{A}},\,\widetilde{v}_{\dot{B}},\,\chi^{\alpha}\big),
-\end{equation}
-
-\end_inset
-
-and orient it with the Berezin-DeWitt form 
-\begin_inset Formula $d^{8|4}\tau$
-\end_inset
-
-.
- Thus the full moduli space admits coordinates
-\begin_inset Formula 
-\[
-\gamma^{Q}=\big(\mathsf{X}^{K},\tau^{M}\big)\colon\;\mathscr{M}_{3}\;\longrightarrow\;\mathbf{CP}^{3|8}\times\mathbf{C}^{8|4},
-\]
-
-\end_inset
-
-where 
-\begin_inset Formula $\mathsf{X}^{K}=(X_{A\dot{A}},\theta_{A}^{\alpha})$
-\end_inset
-
- are the standard superspace coordinates on the complexified hyperboloid 
-\begin_inset Formula $\mathbf{H}_{s}$
-\end_inset
-
-.
- We equip 
-\begin_inset Formula $\mathscr{M}_{3}$
-\end_inset
-
- with the canonical orientation given by:
-\begin_inset Formula 
-\begin{equation}
-\mathcal{D}\gamma\;\coloneqq\;D^{3|8}\mathsf{X}\,\wedge\,d^{8|4}\tau.
-\end{equation}
-
-\end_inset
-
-The semiclassical expectation value of the Wilson operator is then expressed as an integral over 
-\begin_inset Formula $\mathscr{M}_{3}$
-\end_inset
-
- against the measure 
-\begin_inset Formula $\mathcal{D}\gamma$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-As a final preparation for computing the holonomy operator,
- we explain how a point 
-\begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{3}$
-\end_inset
-
- specifies the family of lines 
-\begin_inset Formula $\{\mathcal{L}_{m}\}$
-\end_inset
-
- via the evaluation map.
- Each line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- is determined by moduli functions
-\begin_inset Formula 
-\begin{equation}
-\mathcal{Q}_{m}^{A\dot{A}}=\mathcal{Q}_{m}^{A\dot{A}}(\tau^{M}),\quad q_{m}^{\alpha A}=q_{m}^{\alpha A}(\tau^{M}),
-\end{equation}
-
-\end_inset
-
-with domain 
-\begin_inset Formula $\mathcal{P}$
-\end_inset
-
-.
- Combining these with the superspace coordinates 
-\begin_inset Formula $\mathsf{X}^{K}\in\mathbf{H}_{s}$
-\end_inset
-
- defines the incidence maps:
-\begin_inset Formula 
-\begin{equation}
-Y_{m}^{A\dot{A}}(\gamma^{Q})\;\coloneqq\;X^{A\dot{A}}+\mathcal{Q}_{m}^{A\dot{A}}(\tau^{M}),\quad\xi_{m}^{\alpha A}(\gamma^{Q})\;\coloneqq\;\theta^{\alpha A}+q_{m}^{\alpha A}(\tau^{M}).
-\end{equation}
-
-\end_inset
-
-Hence 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- is the locus in 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
- satisfying 
-\begin_inset Formula $\mu_{m\dot{A}}=\lambda^{A}Y_{mA\dot{A}}(\gamma^{Q})$
-\end_inset
-
- and 
-\begin_inset Formula $\psi_{m}^{\alpha}=\lambda^{A}\xi_{mA}^{\alpha}(\gamma^{Q})$
-\end_inset
-
-.
- As 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
- varies over 
-\begin_inset Formula $\mathscr{M}_{3}$
-\end_inset
-
-,
- these relations sweep out all possible configurations of the three-line family.
-\end_layout
-
-\begin_layout Standard
-To compute the holonomy operator for the three-line configuration,
- we introduce a background gauge potential 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- on the holomorphic bundle 
-\begin_inset Formula $E\to\mathbf{MT}_{s}$
-\end_inset
-
- and probe how 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- deforms the vacuum along the algebraic one-cycle:
-\begin_inset Formula 
-\begin{equation}
-\mathscr{S}_{3}(\gamma^{Q})\;\coloneqq\;\sum_{m=1,2,3}\;[\mathcal{L}_{m}]\;\in\;\mathrm{Z}_{1}(\mathbf{MT}_{s}).
-\end{equation}
-
-\end_inset
-
-This cycle is parametrised by 
-\begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{3}$
-\end_inset
-
-,
- just as a single line 
-\begin_inset Formula $\mathcal{L}(X,\theta)$
-\end_inset
-
- is parametrised by 
-\begin_inset Formula $\mathsf{X}^{K}\in\mathbf{H}_{s}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-The holonomy along 
-\begin_inset Formula $\mathscr{S}_{3}(\gamma^{Q})$
-\end_inset
-
- is:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{Hol}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;=\;\mathrm{P}\left(\langle\mathcal{L}_{1}|u][u|\mathcal{L}_{2}|v][v|\mathcal{L}_{3}\rangle\right).
-\end{equation}
-
-\end_inset
-
-Using the elementary blocks in Eqs.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-213"
-nolink "false"
-
-\end_inset
-
-),
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-214"
-nolink "false"
-
-\end_inset
-
-),
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-215"
-nolink "false"
-
-\end_inset
-
-),
- we write:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;\\
- & =\;\mathrm{P}\left(\;e^{-\frac{1}{2\pi i}\int_{\mathcal{L}_{1}}\boldsymbol{a}(u;\lambda^{A})\wedge\boldsymbol{A}|_{\mathcal{L}_{1}}(\lambda^{A})}e^{-\frac{1}{2\pi i}\int_{\mathcal{L}_{2}}\boldsymbol{b}(u,v;\lambda^{A})\wedge\boldsymbol{A}|_{\mathcal{L}_{2}}(\lambda^{A})}e^{-\frac{1}{2\pi i}\int_{\mathcal{L}_{3}}\boldsymbol{c}(v;\lambda^{A})\wedge\boldsymbol{A}|_{\mathcal{L}_{3}}(\lambda^{A})}\right).
-\end{align}
-
-\end_inset
-
-Applying the product rule (Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-208"
-nolink "false"
-
-\end_inset
-
-)) and the monomial expansion (Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-209"
-nolink "false"
-
-\end_inset
-
-)) yields:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\label{eq:-211}\\
- & =\;\mathbb{I}_{\mathfrak{g}}\;+\;\sum_{n\geq4}\;\frac{i^{n}}{(2\pi)^{n}}\;\sum_{2\leq a<b\leq n-1}\;\underset{\mathbf{L}_{n}\,\,\,}{\int}\;\mathcal{F}_{ab}^{\lambda}(\gamma^{Q})\;\bigwedge_{i=1}^{n}\;\frac{D\lambda_{i}}{\lambda_{i}\cdot\lambda_{i+1}}\wedge\boldsymbol{A}\big|_{\mathcal{L}_{c_{ab}(i)}}\,(\lambda_{i}^{A}).
-\end{align}
-
-\end_inset
-
-Here 
-\begin_inset Formula $\mathbf{L}_{n}\coloneqq\bigtimes^{n}\mathbf{CP}^{1}$
-\end_inset
-
- and 
-\begin_inset Formula $\mathcal{F}_{ab}^{\lambda}$
-\end_inset
-
- is defined as in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-210"
-nolink "false"
 
 \end_inset
 
@@ -21250,1749 +20153,56 @@ nolink "false"
 \end_layout
 
 \begin_layout Standard
-We define the Wilson operator by:
-\begin_inset Formula 
-\begin{equation}
-\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;\coloneqq\;\mathsf{Tr}_{\mathfrak{g}}\;\mathrm{Hol}[\mathscr{S}_{3}(\gamma^{Q})].
-\end{equation}
-
+Our aim is to compute the semiclassical expectation value of the generalised Wilson operator.
+ So,
+ fix a multi-index 
+\begin_inset Formula $\vec{\alpha}\coloneqq\left(a,b\right)\in\mathcal{I}_{1}\left(n\right)$
 \end_inset
 
-Hence Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-211"
-nolink "false"
-
+ and let 
+\begin_inset Formula $d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)$
 \end_inset
 
-) gives:
-\begin_inset Formula 
-\begin{align}
- & \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;=\;r\;+\;\sum_{n\geq4}\;(-1)^{n}\;\sum_{2\leq a<b\leq n-1}\;\underset{\mathbf{L}_{n}\,\,\,}{\int}\;\mathcal{F}_{ab}^{\lambda}(\gamma^{Q})\;\mathsf{Tr}\;\bigwedge_{i=1}^{n}\;\frac{D\lambda_{i}}{\lambda_{i}\cdot\lambda_{i+1}}\\
- & \qquad\underset{\mathbf{MT}_{s}^{*}\,\,\,}{\int}\;\Psi_{\Delta_{i}}\Big|_{\mathcal{L}_{c_{ab}(i)}}\,\big(\lambda_{i}^{A};\mathsf{Z}_{i}'^{I}\big)\;\alpha_{c_{ab}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\,\mathsf{T}^{\mathsf{a}_{i}}\wedge D^{2|4}\mathsf{Z}_{i}'.\label{eq:-212}
-\end{align}
-
+ denote the standard measure on the moduli space of the localising family 
+\begin_inset Formula $\mathcal{L}_{m}\left(m=1,2,3\right)$
 \end_inset
 
-Define 
-\begin_inset Formula $\mathbf{X}_{n}^{*}\coloneqq\bigtimes^{n}\mathbf{MT}_{s}^{*}$
+ with special points 
+\begin_inset Formula $S$
 \end_inset
 
- with measure 
-\begin_inset Formula $\bigwedge_{i}D^{2|4}\mathsf{Z}_{i}'$
+,
+ arranged according to 
+\begin_inset Formula $\vec{\alpha}$
 \end_inset
 
 .
- Exchanging the order of integration by Fubini's theorem,
- Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-212"
-nolink "false"
-
-\end_inset
-
-) becomes:
-\begin_inset Formula 
-\begin{align}
- & \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;=\;r\;+\;\sum_{n\geq4}\;(-1)^{n}\;\sum_{2\leq a<b\leq n-1}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\bigwedge_{i=1}^{n}\;D^{2|4}\mathsf{Z}_{i}'\wedge\alpha_{c_{ab}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\\
- & \qquad\underset{\mathbf{L}_{n}\,\,\,}{\int}\;\mathcal{F}_{ab}^{\lambda}(\gamma^{Q})\;\mathsf{Tr}\;\bigwedge_{j=1}^{n}\;\frac{D\lambda_{j}}{\lambda_{j}\cdot\lambda_{j+1}}\mathsf{T}^{\mathsf{a}_{j}}\wedge\Psi_{\Delta_{j}}\Big|_{\mathcal{L}_{c_{ab}(j)}}\,\big(\lambda_{j}^{A};\mathsf{Z}_{j}'^{I}\big).
-\end{align}
-
-\end_inset
-
-Finally,
- applying the celestial BMSW identity gives:
-\begin_inset Formula 
-\begin{align}
- & \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{3}(\gamma^{Q})\big]\;=\;r\;+\;\sum_{n\geq4}\;(-1)^{n}\;\sum_{2\leq a<b\leq n-1}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\mathcal{F}_{ab}^{z'}(\gamma^{Q})\;\mathsf{Tr}\;\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{ab}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\label{eq:-216}\\
- & \qquad e^{i\langle z_{i}'|\xi_{c_{ab}(i)}\cdot\eta_{i}\rangle}\;\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{ab}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.
-\end{align}
-
-\end_inset
-
-This completes the explicit expansion of the Wilson operator in our holomorphic gauge theory.
-\end_layout
-
-\begin_layout Standard
-In the minitwistor sigma-model picture,
- the gauge field configuration 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- probed by the Wilson operator 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}_{3}]$
-\end_inset
-
- arises from a system of three minitwistor strings.
- For each point 
-\begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{3}$
-\end_inset
-
-,
- we associate a semiclassical state 
-\begin_inset Formula $\mathscr{S}_{3}(\gamma^{Q})$
-\end_inset
-
-,
- represented by an algebraic cocycle.
- Hence 
-\begin_inset Formula $\mathscr{M}_{3}$
-\end_inset
-
- serves as the configuration space of these strings.
- Then,
- by analogy with Feynman's pathintegral,
- we define 
+ Then define the correlator
 \begin_inset Formula 
 \begin{equation}
-\mathcal{I}_{1}[\boldsymbol{A}]\;\coloneqq\;\underset{\mathscr{M}_{3}\,\,\,}{\int}\;\mathcal{D}\gamma\;\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{3}(\gamma^{Q})\big],
+\Lambda_{1}\left[\boldsymbol{A}\right]\;\coloneqq\;\lim_{b\to0}\,\left\langle \boldsymbol{W}\left[\mathscr{S};\vec{\alpha},S\right]\right\rangle _{\mathbf{MT}}\;=\;\int_{\:\mathscr{M}_{3}}\;d\boldsymbol{\Omega}_{\vec{\alpha},S}\left(\gamma^{Q}\right)\;\mathrm{W}^{\boldsymbol{A}}\left[\mathscr{S}\left(\gamma^{Q}\right);S\right].
 \end{equation}
 
 \end_inset
 
-which we interpret as the semiclassical expectation value of the non-local observable 
-\begin_inset Formula $\mathbb{W}^{\boldsymbol{A}}[\mathscr{S}_{3}]$
+Here the subscript in 
+\begin_inset Formula $\Lambda_{1}$
 \end_inset
 
- in our holomorphic gauge theory
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Recall that in the minitwistor-string framework,
- this gauge theory functions as the string field theory.
-\end_layout
-
+ refers to the MHV level of the process under consideration.
+ We shall now establish that 
+\begin_inset Formula $\Lambda_{1}$
 \end_inset
 
-.
- 
-\end_layout
-
-\begin_layout Standard
-Integrating Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-216"
-nolink "false"
-
-\end_inset
-
-) over 
-\begin_inset Formula $\mathscr{M}_{3}$
-\end_inset
-
- with the measure 
-\begin_inset Formula $\mathcal{D}\gamma$
-\end_inset
-
- and using the Berezin integral property 
-\begin_inset Formula $\int d^{0|8}\theta\;r=0$
-\end_inset
-
-,
- we get:
-\begin_inset Formula 
-\begin{align}
- & \mathcal{I}_{1}[\boldsymbol{A}]\;=\;\sum_{n\geq4}\;(-1)^{n}\;\sum_{2\leq a<b\leq n-1}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\underset{\mathscr{M}_{3}\,\,\,}{\int}\;\mathcal{D}\gamma\;\mathcal{F}_{ab}^{z'}(\gamma^{Q})\;\mathsf{Tr}\;\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{ab}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\\
- & \qquad e^{i\langle z_{i}'|\xi_{c_{ab}(i)}\cdot\eta_{i}\rangle}\;\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{ab}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.
-\end{align}
-
-\end_inset
-
-Taking functional derivatives of 
-\begin_inset Formula $\mathcal{I}_{1}$
-\end_inset
-
- with respect to the mode coefficients 
-\begin_inset Formula $\alpha_{c_{ab}(i)}^{2h_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)$
-\end_inset
-
- for fixed 
-\begin_inset Formula $a,b$
-\end_inset
-
- satisfying 
-\begin_inset Formula $2\leq a<b\leq n-1$
-\end_inset
-
-,
- and then setting 
-\begin_inset Formula $\boldsymbol{A}=0$
-\end_inset
-
-,
- yields:
-\begin_inset Formula 
-\begin{equation}
-(-1)^{n}\;\prod_{i=1}^{n}\;\frac{\delta}{\delta\alpha_{c_{ab}(i)}^{2h_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)}\;\mathcal{I}_{1}[\boldsymbol{A}]\Bigg|_{\boldsymbol{A}=0}\;=\;M_{n;ab}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{Z}_{i}^{I}\big).
-\end{equation}
-
-\end_inset
-
-Hence the semiclassical expectation value of the Wilson operator 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}_{3}]$
-\end_inset
-
- serves as the generating functional for the 
+ is a generating functional for 
 \begin_inset Formula $\mathrm{N}^{1}\text{-MHV}$
 \end_inset
 
- leaf-gluon amplitudes.
+ leaf-gluon amplitudes at tree level.
 \end_layout
 
 \begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-\begin_inset Formula $\mathrm{N}^{2}\text{-}\mathrm{MHV}$
-\end_inset
-
- Sector.
-\end_layout
-
-\begin_layout Standard
-In Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:N2-MHV-Scattering-Amplitude"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
-,
- we showed that the 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- minitwistor superamplitude for gluons decomposes into a sum whose individual terms are the partial amplitudes
-\begin_inset Formula 
-\[
-\widetilde{\mathcal{M}}_{n;a_{1}a_{2},b_{1}b_{2}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{W}_{i}^{I}\big),
-\]
-
-\end_inset
-
-as derived in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-122"
-nolink "false"
-
-\end_inset
-
-).
- For brevity,
- we refer to each 
-\begin_inset Formula $\widetilde{\mathcal{M}}$
-\end_inset
-
- simply as a minitwistor amplitude,
- with the 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- configuration specified by the subscripts 
-\begin_inset Formula $a_{\ell},b_{\ell}$
-\end_inset
-
- for 
-\begin_inset Formula $\ell=1,2$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-The index structure of each term arises from the order-two dual conformal invariant 
-\begin_inset Formula $R_{n;a_{1}a_{2},b_{1}b_{2}}$
-\end_inset
-
-.
- Henceforth,
- we restrict to the index family
-\begin_inset Formula 
-\begin{equation}
-\mathbf{I}_{n}\;\coloneqq\;\big\{\,\vec{\alpha}=(a_{1},a_{2},b_{1},b_{2})\in\mathbf{Z}^{4}\,\big|\,2\leq a_{1}<a_{2}<b_{2}<b_{1}\leq n-1\,\big\}.
-\end{equation}
-
-\end_inset
-
-All subsequent results hold equally for any other ordered choice of indices by suitable permutation.
- Throughout this example we assign the labels 
-\begin_inset Formula $\ell=1,2$
-\end_inset
-
- to the two next-to-MHV particles.
-\end_layout
-
-\begin_layout Standard
-In Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:N2-MHV-Scattering-Amplitude"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
-,
- we saw that the minitwistor amplitude localises on a family of five lines,
- 
-\begin_inset Formula $\{\mathcal{L}_{m}\}_{m=1}^{5}\subset\mathbf{MT}_{s}$
-\end_inset
-
-.
- We label these lines by 
-\begin_inset Formula $m=1,\dots,5$
-\end_inset
-
- and group the gluons in the scattering process into clusters,
- each supported on one line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
-.
- For a given index vector 
-\begin_inset Formula $\vec{\alpha}\in\mathbf{I}_{n}$
-\end_inset
-
-,
- the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon resides on line 
-\begin_inset Formula $\mathcal{L}_{c_{\vec{\alpha}}(i)}$
-\end_inset
-
-,
- where the indicator function 
-\begin_inset Formula $c_{\vec{\alpha}}(i)$
-\end_inset
-
- for an 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- configuration is given by:
-\begin_inset Formula 
-\begin{equation}
-c_{\vec{\alpha}}(i)\;\coloneqq\;\begin{cases}
-1, & 1\leq i\leq a_{1}-1;\\
-2, & a_{1}\leq i\leq a_{2}-1;\\
-3, & a_{2}\leq i\leq b_{2}-1;\\
-4, & b_{2}\leq i\leq b_{1}-1;\\
-5, & b_{1}\leq i\leq n.
-\end{cases}
-\end{equation}
-
-\end_inset
-
-Accordingly,
- we introduce annihilation and creation operators for gluons on each line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
-.
- The classical expectation value of the annihilation operator on line 
-\begin_inset Formula $m$
-\end_inset
-
- defines the mode function 
-\begin_inset Formula $\alpha_{m}^{\Delta,\mathsf{a}}\big(\mathsf{Z}^{I}\big)$
-\end_inset
-
-.
- The minitwistor-Fourier expansion of the gauge potential 
-\begin_inset Formula $\boldsymbol{A}\big|_{\mathcal{L}_{m}}$
-\end_inset
-
- appears in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-217"
-nolink "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-The clustering of gluons described above provides the physical motivation for interpreting the 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- amplitudes as correlation functions of a many-body system composed of five minitwistor strings.
- In this picture,
- each line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- represents a semiclassical configuration of the minitwistor sigma-model.
- 
-\end_layout
-
-\begin_layout Standard
-With this in mind,
- we ask:
- what is the classical configuration space of this quintet of minitwistor strings?
- It is the moduli superspace of the family 
-\begin_inset Formula $\{\mathcal{L}_{m}\}$
-\end_inset
-
-,
- namely the supermanifold:
-\begin_inset Formula 
-\begin{equation}
-\mathscr{M}_{5}\;=\;\mathbf{H}_{s}\times\mathcal{P}_{1}\times\mathcal{P}_{2}.
-\end{equation}
-
-\end_inset
-
-Here 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
- denotes the parameter space associated with the 
-\begin_inset Formula $\ell$
-\end_inset
-
--th next-to-MHV particle.
- In this section we analytically continue 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
- to the complex category,
- so that 
-\begin_inset Formula $\mathcal{P}_{\ell}\cong\mathbf{C}^{8|4}$
-\end_inset
-
-.
- Globally,
- each 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
- is charted by the moduli parameters:
-\begin_inset Formula 
-\begin{equation}
-\tau_{\ell}^{M}\;=\;\big(u_{\ell}^{A},\,v_{\ell}^{B},\,\widetilde{u}_{\ell\dot{A}},\,\widetilde{v}_{\ell\dot{B}},\,\chi_{\ell}^{\alpha}\big),
-\end{equation}
-
-\end_inset
-
-where 
-\begin_inset Formula $u_{\ell}^{A}$
-\end_inset
-
-,
- 
-\begin_inset Formula $v_{\ell}^{A}$
-\end_inset
-
-,
- 
-\begin_inset Formula $\widetilde{u}_{\ell\dot{A}}$
-\end_inset
-
- and 
-\begin_inset Formula $\widetilde{v}_{\ell\dot{A}}$
-\end_inset
-
- are bosonic van der Waerden spinors and 
-\begin_inset Formula $\chi_{\ell}^{\alpha}$
-\end_inset
-
- is a Grassmann variable.
- Hence the full moduli superspace is globally parametrised by:
-\begin_inset Formula 
-\begin{equation}
-\gamma^{Q}\;=\;\big(\mathsf{X}^{K},\,\tau_{1}^{M_{1}},\,\tau_{2}^{M_{2}}\big).
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-To each point 
-\begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{5}$
-\end_inset
-
- we assign the algebraic one-cycle
-\begin_inset Formula 
-\begin{equation}
-\mathscr{S}_{5}(\gamma^{Q})\;\coloneqq\;\sum_{m=1}^{5}\;[\mathcal{L}_{m}]\;\in\;\mathrm{Z}_{1}(\mathbf{MT}_{s}),
-\end{equation}
-
-\end_inset
-
-which encodes the geometry of the five-line configuration 
-\begin_inset Formula $\{\mathcal{L}_{m}\}$
-\end_inset
-
-.
- When we later reinterpret our construction dynamically via the minitwistor sigma-model,
- 
-\begin_inset Formula $\mathscr{S}_{5}(\gamma^{Q})$
-\end_inset
-
- will describe the classical configuration of the five-string many-body system.
- In the present context,
- however,
- our focus is on probing the holomorphic gauge theory on 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
- by inserting a Wilson operator supported on the cycle 
-\begin_inset Formula $\mathscr{S}_{5}(\gamma^{Q})$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-How,
- then,
- does a point in 
-\begin_inset Formula $\mathscr{M}_{5}$
-\end_inset
-
- map to a one-cycle in 
-\begin_inset Formula $\mathrm{Z}_{1}(\mathbf{MT}_{s})$
-\end_inset
-
-?
- The answer follows from the evaluation map.
- Each line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- is encoded by moduli functions
-\begin_inset Formula 
-\begin{equation}
-\mathcal{Q}_{m}^{A\dot{A}}=\mathcal{Q}_{m}^{A\dot{A}}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}}\big),\quad q_{m}^{\alpha A}=q_{m}^{\alpha A}(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}})
-\end{equation}
-
-\end_inset
-
-defined over the domain 
-\begin_inset Formula $\mathcal{P}_{1}\times\mathcal{P}_{2}$
-\end_inset
-
-.
- Their component expressions appear in Table 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Embedding-coordinates--1"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
-.
- Together with the superspace coordinates 
-\begin_inset Formula $\mathsf{X}^{K}\in\mathbf{H}_{s}$
-\end_inset
-
-,
- they determine the incidence maps:
- 
-\begin_inset Formula 
-\begin{equation}
-Y_{m}^{A\dot{A}}\big(\gamma^{Q}\big)\;=\;X^{A\dot{A}}+\mathcal{Q}_{m}^{A\dot{A}}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}}\big),\quad\xi_{m}^{\alpha A}\big(\gamma^{Q}\big)\;=\;\theta^{\alpha A}+q_{m}^{\alpha A}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}}\big).
-\end{equation}
-
-\end_inset
-
-Hence,
- as in the 
-\begin_inset Formula $\mathrm{N}^{1}\text{-MHV}$
-\end_inset
-
- case,
- the line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- is the locus in 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
- satisfying the incidence relations 
-\begin_inset Formula $\mu_{m\dot{A}}=\lambda^{A}Y_{mA\dot{A}}(\gamma^{Q})$
-\end_inset
-
- and 
-\begin_inset Formula $\psi_{m}^{\alpha}=\lambda^{A}\xi_{mA}^{\alpha}(\gamma^{Q})$
-\end_inset
-
-.
- As 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
- varies over 
-\begin_inset Formula $\mathscr{M}_{5}$
-\end_inset
-
-,
- these relations for 
-\begin_inset Formula $m=1,\dots,5$
-\end_inset
-
- sweep out every configuration of the five-line system.
-\end_layout
-
-\begin_layout Standard
-We now compute the Wilson operator supported on the cycle 
-\begin_inset Formula $\mathscr{S}_{5}$
-\end_inset
-
-.
- Introduce a gauge field 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- for the holomorphic gauge theory on the bundle 
-\begin_inset Formula $E$
-\end_inset
-
- over 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
-.
- The holonomy along 
-\begin_inset Formula $\mathscr{S}_{5}(\gamma^{Q})$
-\end_inset
-
- is:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{Hol}\big[\mathscr{S}_{5}(\gamma^{Q})\big]\;=\;\mathrm{P}\left(\langle\mathcal{L}_{1}|u_{1}][u_{1}|\mathcal{L}_{2}|v_{1}][v_{1}|\mathcal{L}_{3}|u_{2}][u_{2}|\mathcal{L}_{4}|v_{2}][v_{2}|\mathcal{L}_{5}\rangle\right),
-\end{equation}
-
-\end_inset
-
-where the moduli 
-\begin_inset Formula $u_{\ell}^{A},v_{\ell}^{A}$
-\end_inset
-
- are all encoded in the superspace coordinates 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-Using the monomial expansion of the Green differentials 
-\begin_inset Formula $\boldsymbol{a},\boldsymbol{b},\boldsymbol{c}$
-\end_inset
-
- (Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-209"
-nolink "false"
-
-\end_inset
-
-)),
- we write:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{P}\left(\bigwedge_{i=1}^{a_{1}-1}\boldsymbol{a}(u_{1};\lambda_{i}^{A})\bigwedge_{i=a_{1}}^{a_{2}-1}\boldsymbol{b}(u_{1},v_{1};\lambda_{i}^{A})\bigwedge_{i=a_{2}}^{b_{2}-1}\boldsymbol{b}(v_{1},u_{2};\lambda_{i}^{A})\bigwedge_{i=b_{2}}^{b_{1}-1}\boldsymbol{b}(u_{2},v_{2};\lambda_{i}^{A})\bigwedge_{i=b_{1}}^{n}\boldsymbol{c}(v_{2};\lambda_{i}^{A})\right)\\
- & \qquad=\;\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{\lambda}\big(\gamma^{Q}\big)\;\bigwedge_{i=1}^{n}\,\frac{D\lambda_{i}}{\lambda_{i}\cdot\lambda_{i+1}},
-\end{align}
-
-\end_inset
-
-with
-\begin_inset Formula 
-\begin{equation}
-\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{\lambda}\big(\gamma^{Q}\big)\;\coloneqq\;\mathcal{F}_{a_{1}a_{2}}^{\lambda}\big(\tau_{1}^{M}\big)\,\mathcal{F}_{b_{2}b_{1}}^{\lambda}\big(\tau_{2}^{M}\big).
-\end{equation}
-
-\end_inset
-
-Applying the product rule (Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-208"
-nolink "false"
-
-\end_inset
-
-)) gives:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{5}(\gamma^{Q})\big]\label{eq:-219}\\
- & =\;\mathbb{I}_{\mathfrak{g}}\;+\;\sum_{n\geq6}\;\frac{i^{n}}{(2\pi)^{n}}\;\sum_{\vec{\alpha}\in\mathbf{I}_{n}}\;\underset{\mathbf{L}_{n}\,\,\,}{\int}\;\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{\lambda}\big(\gamma^{Q}\big)\;\bigwedge_{i=1}^{n}\;\frac{D\lambda_{i}}{\lambda_{i}\cdot\lambda_{i+1}}\mathsf{T}^{\mathsf{a}_{i}}\wedge\boldsymbol{A}\big|_{c_{\vec{\alpha}}(i)}\big(\lambda_{i}^{A}\big).\label{eq:-218}
-\end{align}
-
-\end_inset
-
-The Wilson operator is its gauge trace,
-\begin_inset Formula 
-\begin{equation}
-\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{5}(\gamma^{Q})\big]\;\coloneqq\;\mathsf{Tr}_{\mathfrak{g}}\,\mathrm{Hol}\big[\mathscr{S}_{5}(\gamma^{Q})\big].
-\end{equation}
-
-\end_inset
-
-Substituting the minitwistor-Fourier expansion of 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- (cf.
- Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-217"
-nolink "false"
-
-\end_inset
-
-)) into the above,
- one finds:
-\begin_inset Formula 
-\begin{align}
- & \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{5}(\gamma^{Q})\big]\;=\;r\;+\;\sum_{n\geq6}\;(-1)^{n}\;\sum_{\vec{\alpha}\in\mathbf{I}_{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\bigwedge_{i=1}^{n}\;D^{2|4}\mathsf{Z}_{i}'\wedge\alpha_{c_{\vec{\alpha}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\\
- & \qquad\underset{\mathbf{L}_{n}\,\,\,}{\int}\;\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{\lambda}\big(\gamma^{Q}\big)\;\bigwedge_{j=1}^{n}\;\frac{D\lambda_{j}}{\lambda_{j}\cdot\lambda_{j+1}}\mathsf{T}^{\mathsf{a}_{j}}\wedge\Psi_{\Delta_{j}}\Big|_{\mathcal{L}_{c_{\vec{\alpha}}(i)}}\big(\lambda_{j}^{A};\mathsf{Z}_{j}'^{I}\big).
-\end{align}
-
-\end_inset
-
-Invoking the celestial BMSW identity yields the full expansion,
-\begin_inset Formula 
-\begin{align}
- & \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{5}(\gamma^{Q})\big]\;=\;r\;+\;\sum_{n\geq6}\;(-1)^{n}\;\sum_{\vec{\alpha}\in\mathbf{I}_{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{z'}\big(\gamma^{Q}\big)\\
- & \mathsf{Tr}\;\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{\vec{\alpha}}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\;e^{i\langle z_{i}'|\xi_{c_{\vec{\alpha}}(i)}\cdot\eta_{i}\rangle}\;\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{\vec{\alpha}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.\label{eq:-220}
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-As in the 
-\begin_inset Formula $\mathrm{N}^{1}\text{-MHV}$
-\end_inset
-
- case,
- the semiclassical expectation value is:
-\begin_inset Formula 
-\begin{equation}
-\mathcal{I}_{2}[\boldsymbol{A}]\;\coloneqq\;\underset{\mathscr{M}_{5}\,\,\,\,\,}{\int}\;\mathcal{D}\gamma\;\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{5}(\gamma^{Q})\big].
-\end{equation}
-
-\end_inset
-
-Integrating 
-\begin_inset Formula $\mathbb{W}^{\boldsymbol{A}}$
-\end_inset
-
- over 
-\begin_inset Formula $\mathscr{M}_{5}$
-\end_inset
-
- and using 
-\begin_inset Formula $\int d^{0|8}\theta\;r=0$
-\end_inset
-
- gives:
-\begin_inset Formula 
-\begin{align}
- & \mathcal{I}_{2}[\boldsymbol{A}]\;=\;\sum_{n\geq6}\;(-1)^{n}\;\sum_{\vec{\alpha}\in\mathbf{I}_{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\underset{\mathscr{M}_{5}\,\,\,\,\,}{\int}\;\mathcal{D}\gamma\quad\mathcal{F}_{a_{1}a_{2},b_{2}b_{1}}^{z'}\big(\gamma^{Q}\big)\\
- & \mathsf{Tr}_{\mathfrak{g}}\;\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{\vec{\alpha}}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\;e^{i\langle z_{i}'|\xi_{c_{\vec{\alpha}}(i)}\cdot\eta_{i}\rangle}\;\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{\vec{\alpha}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Finally,
- fixing 
-\begin_inset Formula $\vec{\alpha}\in\mathbf{I}_{n}$
-\end_inset
-
- and 
-\begin_inset Formula $\{\mathsf{Z}_{i}^{I}\}\subset\mathbf{MT}_{s}^{*}$
-\end_inset
-
-,
- we take functional derivatives with respect to the mode coefficients and set 
-\begin_inset Formula $\boldsymbol{A}=0$
-\end_inset
-
-:
-\begin_inset Formula 
-\begin{equation}
-(-1)^{n}\;\prod_{i=1}^{n}\;\frac{\delta}{\delta\alpha_{c_{\vec{\alpha}}(i)}^{2h_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)}\;\mathcal{I}_{2}[\boldsymbol{A}]\Bigg|_{\boldsymbol{A}=0}\;=\;\mathcal{M}_{n;a_{1}a_{2},b_{2}b_{1}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{Z}_{i}^{I}\big).
-\end{equation}
-
-\end_inset
-
-This result confirms that the semiclassical limit of the nonlocal gauge-invariant observable 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
- in the minitwistor string field theory generates the tree-level 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- leaf-gluon amplitudes.
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Subsubsection
-Tree-level 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
--Matrix
-\end_layout
-
-\begin_layout Standard
-Building on our results for the 
-\begin_inset Formula $\mathrm{N}^{1}\text{-}$
-\end_inset
-
- and 
-\begin_inset Formula $\mathrm{N}^{2}\text{-MHV}$
-\end_inset
-
- gluon amplitudes,
- we now show how the full tree-level gluon 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
--matrix in 
-\begin_inset Formula $\mathcal{N}=4$
-\end_inset
-
- SYM theory emerges from the semiclassical expectation values of 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
-.
- This derivation is central to our work,
- so we present it in detail.
- Along the way,
- we introduce the operator/state correspondence in celestial CFT.
- In particular,
- mapping each gluon operator to the minitwistor line that supports its 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- amplitude motivates interpreting those lines as the classical configurations of minitwistor strings.
-\end_layout
-
-\begin_layout Standard
-From Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:General-Case"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
-,
- the 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- minitwistor superamplitude for 
-\begin_inset Formula $n$
-\end_inset
-
- gluons can be written as a sum of partial amplitudes.
- Each summand has the form 
-\begin_inset Formula $\widetilde{\mathcal{M}}_{n;\vec{a}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{Z}_{i}^{I}\big)$
-\end_inset
-
-,
- where
-\begin_inset Formula 
-\begin{equation}
-\vec{a}\;=\;(a_{1},\dots,a_{k};\,b_{1},\dots,b_{k})\;\in\;\mathbf{I}_{k}^{n},
-\end{equation}
-
-\end_inset
-
-and the index set is
-\begin_inset Formula 
-\begin{equation}
-\vec{}\mathbf{I}_{k}^{n}\;\coloneqq\;\big\{\,(a_{1},\dots,a_{k};b_{1},\dots,b_{k})\in\mathbf{Z}^{2k}\,\big|\,2\leq a_{1}<a_{2}<\dots<b_{2}<b_{1}\leq n-1\,\big\}.
-\end{equation}
-
-\end_inset
-
-Let 
-\begin_inset Formula $N\coloneqq2k+1$
-\end_inset
-
-.
- The ordering of the pairs 
-\begin_inset Formula $(a_{i},b_{j})$
-\end_inset
-
- reflects the structure of the order-
-\begin_inset Formula $N$
-\end_inset
-
- dual conformal invariant
-\begin_inset Formula 
-\begin{equation}
-R_{n;a_{1}a_{2},a_{3}a_{4},\dots,b_{4}b_{3},b_{2}b_{1}}.
-\end{equation}
-
-\end_inset
-
-Since every term in the full 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- amplitude arises by permuting the entries of some 
-\begin_inset Formula $\vec{a}\in\mathbf{I}_{k}^{n}$
-\end_inset
-
-,
- we refer to each 
-\begin_inset Formula $\widetilde{\mathcal{M}}_{n;\vec{a}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
-\end_inset
-
- as a minitwistor gluon amplitude,
- with its 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- configuration specified by 
-\begin_inset Formula $\vec{a}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-Localisation.
-\end_layout
-
-\begin_layout Standard
-Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:General-Case"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
- established a localisation theorem:
- each partial amplitude 
-\begin_inset Formula $\widetilde{\mathcal{M}}_{n;\vec{a}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}$
-\end_inset
-
- is supported on a family 
-\begin_inset Formula $\{\mathcal{L}_{m}\}_{m=1}^{N}\subset\mathbf{MT}_{s}$
-\end_inset
-
- of minitwistor lines.
- Here 
-\begin_inset Formula $m=1,\dots,N$
-\end_inset
-
- labels the lines,
- and 
-\begin_inset Formula $\ell=1,\dots,k$
-\end_inset
-
- labels one of the next-to-MHV bosons.
-\end_layout
-
-\begin_layout Standard
-The geometric configuration of these lines is parametrised by the moduli superspace:
-\begin_inset Formula 
-\begin{equation}
-\mathscr{M}_{N}\;\coloneqq\;\mathbf{H}_{s}\times\mathcal{P}_{1}\times\mathcal{P}_{2}\times\dots\times\mathcal{P}_{k},
-\end{equation}
-
-\end_inset
-
-where each 
-\begin_inset Formula $\mathcal{P}_{\ell}\cong\mathbf{R}^{8|4}$
-\end_inset
-
- is the parameter superspace for one external next-to-MHV gluon.
- The reality of 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
- follows from the fact that we originally defined the leaf-gluon amplitudes in split-signature,
- which forces the momentum-twistor components to be real.
-\end_layout
-
-\begin_layout Standard
-We then analytically continue to the complex category by setting 
-\begin_inset Formula $\mathcal{P}_{\ell}\cong\mathbf{C}^{8|4}$
-\end_inset
-
-.
- In this way,
- 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- becomes the moduli superspace of lines in the complexified minitwistor superspace 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
-.
- The coordinates 
-\begin_inset Formula $\tau_{\ell}^{M}$
-\end_inset
-
- on each 
-\begin_inset Formula $\mathcal{P}_{\ell}$
-\end_inset
-
- were introduced in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-223"
-nolink "false"
-
-\end_inset
-
-);
- the full moduli coordinates 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
- were defined in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-204"
-nolink "false"
-
-\end_inset
-
-);
- and the standard orientation on 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- is given by the measure 
-\begin_inset Formula $\mathcal{D}\gamma$
-\end_inset
-
- in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-224"
-nolink "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-Evaluation Map and Incidence Relations.
-\end_layout
-
-\begin_layout Standard
-The moduli space 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- determines the embedding of each minitwistor line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- via an evaluation map.
- In global coordinates,
- line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- carries two sets of moduli functions:
-\begin_inset Formula 
-\begin{equation}
-\mathcal{Q}_{m}^{A\dot{A}}=\mathcal{Q}_{m}^{A\dot{A}}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}},\dots,\tau_{k}^{M_{k}}\big),\quad q_{m}^{\alpha A}=q_{m}^{\alpha A}\big(\tau_{1}^{M_{1}},\tau_{2}^{M_{2}},\dots,\tau_{k}^{M_{k}}\big)
-\end{equation}
-
-\end_inset
-
-whose domain is the full parameter space 
-\begin_inset Formula $\bigtimes_{\ell=1}^{k}\mathcal{P}_{\ell}$
-\end_inset
-
-.
- These moduli functions combine with the standard coordinates 
-\begin_inset Formula $\mathsf{X}^{K}=(X_{A\dot{A}},\theta_{A}^{\alpha})$
-\end_inset
-
- on the complexified hyperbolic superspace 
-\begin_inset Formula $\mathbf{H}_{s}$
-\end_inset
-
- to define the incidence maps:
-\begin_inset Formula 
-\begin{equation}
-Y_{m}^{A\dot{A}}\big(\gamma^{Q}\big)\;=\;X^{A\dot{A}}+\mathcal{Q}_{m}^{A\dot{A}}\big(\tau_{\ell}^{M}\big),\quad\xi_{m}^{\alpha A}\big(\gamma^{Q}\big)\;=\;\theta^{\alpha A}+q_{m}^{\alpha A}\big(\tau_{\ell}^{M}\big).
-\end{equation}
-
-\end_inset
-
-Accordingly,
- the line 
-\begin_inset Formula $\mathcal{L}_{m}(\gamma^{Q})$
-\end_inset
-
- is the locus of points 
-\begin_inset Formula $\mathsf{W}_{m}^{I}=(\lambda_{m}^{A},\mu_{m\dot{A}},\psi_{m}^{\alpha})$
-\end_inset
-
- in minitwistor superspace satisfying,
- for all 
-\begin_inset Formula $[\sigma^{A}]\in\mathbf{CP}^{1}$
-\end_inset
-
-,
-\begin_inset Formula 
-\begin{equation}
-\lambda_{m}^{A}=\sigma^{A},\quad\mu_{m\dot{A}}=\sigma^{A}Y_{mA\dot{A}}(\gamma^{Q}),\quad\psi_{m}^{\alpha}=\sigma^{A}\xi_{mA}^{\alpha}(\gamma^{Q}).
-\end{equation}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph*
-Operator/State Correspondence.
-\end_layout
-
-\begin_layout Standard
-Another consequence of the localisation theorem is that,
- for each index vector 
-\begin_inset Formula $\vec{a}\in\mathbf{I}_{k}^{n}$
-\end_inset
-
-,
-\begin_inset Formula 
-\begin{equation}
-\widetilde{\mathcal{M}}_{n;\vec{a}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{W}_{i}^{I}\big)\;=\;0
-\end{equation}
-
-\end_inset
-
-whenever the minitwistor 
-\begin_inset Formula $\mathsf{W}_{i}^{I}$
-\end_inset
-
- representing the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon does not lie on the line 
-\begin_inset Formula $\mathcal{L}_{c_{\vec{a}}(i)}$
-\end_inset
-
-.
- Here 
-\begin_inset Formula $c_{\vec{a}}(i)$
-\end_inset
-
- is the indicator function defined in Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:General-Case"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
- that assigns each gluon to its cluster (for example,
- 
-\begin_inset Formula $c_{\vec{a}}(i)=1$
-\end_inset
-
- for 
-\begin_inset Formula $1\leq i\leq a_{1}-1$
-\end_inset
-
-,
- 
-\begin_inset Formula $c_{\vec{a}}(i)=2$
-\end_inset
-
- for 
-\begin_inset Formula $a_{1}\leq i\leq a_{2}-1$
-\end_inset
-
-,
- and so on).
-\end_layout
-
-\begin_layout Standard
-In celestial CFT,
- the 
-\begin_inset Formula $i$
-\end_inset
-
--th external gluon is described by a conformal weight 
-\begin_inset Formula $\Delta_{i}$
-\end_inset
-
- and an insertion point 
-\begin_inset Formula $\mathsf{z}_{i}=(z_{i},\bar{z}_{i},\eta_{i}^{\alpha})\in\mathcal{CS}_{s}$
-\end_inset
-
-,
- where 
-\begin_inset Formula $z_{i},\bar{z}_{i}\in\mathbf{CP}^{1}$
-\end_inset
-
- and 
-\begin_inset Formula $\eta_{i}^{\alpha}$
-\end_inset
-
- 
-\begin_inset Formula $\left(\alpha=1,\dots,4\right)$
-\end_inset
-
- encodes the helicity.
- Since the dual minitwistor superspace 
-\begin_inset Formula $\mathbf{MT}_{s}^{*}$
-\end_inset
-
- covers 
-\begin_inset Formula $\mathcal{CS}_{s}$
-\end_inset
-
-,
- we represent 
-\begin_inset Formula $\mathsf{z}_{i}$
-\end_inset
-
- by a dual minitwistor 
-\begin_inset Formula $\mathsf{Z}_{i}^{I}$
-\end_inset
-
-.
- We then postulate a field operator
-\begin_inset Formula 
-\[
-O_{\Delta_{i}}^{\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)
-\]
-
-\end_inset
-
- for the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon in the dual minitwistor representation.
- The 
-\begin_inset Formula $\mathcal{MT}$
-\end_inset
-
--transform maps this to a minitwistor operator 
-\begin_inset Formula $\widehat{O}_{\Delta_{i}}^{\mathsf{a}_{i}}\big(\mathsf{W}_{i}^{I}\big)$
-\end_inset
-
-,
- in direct analogy with the Fourier transform between momentum and position representations in quantum mechanics.
-\end_layout
-
-\begin_layout Standard
-Combining this with the localisation theorem,
- we attach a family of gluon operators to each line 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
-.
- Fix 
-\begin_inset Formula $\vec{a}\in\mathbf{I}_{k}^{n}$
-\end_inset
-
-.
- Then for all 
-\begin_inset Formula $i=1,\dots,n$
-\end_inset
-
-,
- the operator 
-\begin_inset Formula $\widehat{O}_{\Delta_{i}}^{\mathsf{a}_{i}}\big(\mathsf{W}_{i}^{I}\big)$
-\end_inset
-
- is supported on the line 
-\begin_inset Formula $\mathcal{L}_{c_{\vec{a}}(i)}$
-\end_inset
-
-.
- We interpret the classical expectation values of the gluon annihilation operators as the mode coefficients 
-\begin_inset Formula $\alpha_{m}^{\Delta,\mathsf{a}_{i}}$
-\end_inset
-
- that appear in the gauge field expansion (see Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-217"
-nolink "false"
-
-\end_inset
-
-)).
- This assignment 
-\emph on
-suggests
-\emph default
- that each minitwistor line,
- together with its collection of mode functions,
- admits a semiclassical interpretation as a minitwistor ``string.''
-\end_layout
-
-\begin_layout Standard
-\SpecialChar ligaturebreak
-
-\end_layout
-
-\begin_layout Paragraph*
-Holonomy Operator.
-\end_layout
-
-\begin_layout Standard
-The family of lines 
-\begin_inset Formula $\{\mathcal{L}_{m}\}$
-\end_inset
-
- defines an algebraic one-cycle
-\begin_inset Formula 
-\begin{equation}
-\mathscr{S}_{N}(\gamma^{Q})\;\coloneqq\;\sum_{m=1}^{N}[\mathcal{L}_{m}]\;\in\;\mathrm{Z}_{1}(\mathbf{MT}_{s}),
-\end{equation}
-
-\end_inset
-
-where 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
- makes its dependence on the moduli superspace 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- explicit.
- If each 
-\begin_inset Formula $\mathcal{L}_{m}$
-\end_inset
-
- gives a classical solution of the minitwistor sigma-model,
- then 
-\begin_inset Formula $\mathscr{S}_{N}$
-\end_inset
-
- describes a many-body state of 
-\begin_inset Formula $N$
-\end_inset
-
- such strings in 
-\begin_inset Formula $\mathbf{MT}_{s}$
-\end_inset
-
-.
- In the next section we will show that the correlators of this multi-string system reproduce the full tree-level gluon 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
--matrix.
-\end_layout
-
-\begin_layout Standard
-As 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
- varies over 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
-,
- the cycle 
-\begin_inset Formula $\mathscr{S}_{N}(\gamma^{Q})$
-\end_inset
-
- sweeps out every possible 
-\begin_inset Formula $N$
-\end_inset
-
--string configuration.
- This observation motivates defining the semiclassical expectation value of the Wilson operator 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
- by integrating over 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- against the measure 
-\begin_inset Formula $\mathcal{D}\gamma$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-For now,
- we compute the holonomy operator supported on 
-\begin_inset Formula $\mathscr{S}_{N}$
-\end_inset
-
-:
-\begin_inset Formula 
-\begin{equation}
-\mathrm{Hol}\big[\mathscr{S}_{N}(\gamma^{Q})\big]\;\coloneqq\;\mathrm{P}\left(\langle\mathcal{L}_{1}|u_{1}][u_{1}|\mathcal{L}_{2}|v_{1}][v_{1}|\mathcal{L}_{3}|u_{2}]\dots[u_{k}|\mathcal{L}_{2k}|v_{k}][v_{k}|\mathcal{L}_{2k+1}\rangle\right).
-\end{equation}
-
-\end_inset
-
-Here 
-\begin_inset Formula $\mathrm{Hol}$
-\end_inset
-
- is a functional on 
-\begin_inset Formula $\mathrm{Z}_{1}(\mathbf{MT}_{s})$
-\end_inset
-
-,
- and its dependence on 
-\begin_inset Formula $\gamma^{Q}\in\mathscr{M}_{N}$
-\end_inset
-
- enters through the moduli parameters 
-\begin_inset Formula $u_{\ell}^{A}$
-\end_inset
-
- and 
-\begin_inset Formula $v_{\ell}^{A}$
-\end_inset
-
- in each elementary block 
-\begin_inset Formula $\langle\mathcal{L}_{m}|u][u|\mathcal{L}_{m+1}|v]$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-The monomial expansion and the product rule from Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Product-Rules"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
- imply that the holonomy operator admits the expansion:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{N}(\gamma^{Q})\big]\\
- & =\;\mathbb{I}_{\mathfrak{g}}\;+\;\sum_{n\geq N+1}\;(-1)^{n}\;\sum_{\vec{a}\in\mathbf{I}_{k}^{n}}\;\underset{\mathbf{L}^{n}\,\,\,}{\int}\;\mathcal{F}_{\vec{a}}^{\lambda}\big(\gamma^{Q}\big)\;\bigwedge_{i=1}^{n}\;\frac{D\lambda_{i}}{\lambda_{i}\cdot\lambda_{i+1}}\wedge\boldsymbol{A}\big|_{\mathcal{L}_{c_{\vec{a}}(i)}}\big(\lambda_{i}^{A}\big),
-\end{align}
-
-\end_inset
-
-where 
-\begin_inset Formula $\mathbf{L}^{n}\coloneqq\bigtimes^{n}\mathbf{CP}^{1}$
-\end_inset
-
- and
-\begin_inset Formula 
-\begin{equation}
-\mathcal{F}_{\vec{a}}^{\lambda}\big(\gamma^{Q}\big)\;\coloneqq\;\mathcal{F}_{a_{1}a_{2}}^{\lambda}\big(\tau_{1}^{M}\big)\,\mathcal{F}_{a_{3}a_{4}}^{\lambda}\big(\tau_{2}^{M}\big)\,\dots\,\mathcal{F}_{b_{4}b_{3}}^{\lambda}\big(\tau_{k-1}^{M}\big)\,\mathcal{F}_{b_{2}b_{1}}^{\lambda}\big(\tau_{k}^{M}\big).
-\end{equation}
-
-\end_inset
-
-Recall that the 
-\begin_inset Formula $\mathcal{F}$
-\end_inset
-
--function first appeared in Subsection 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:General-Case"
-plural "false"
-caps "false"
-noprefix "false"
-nolink "false"
-
-\end_inset
-
- and was redefined in Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-210"
-nolink "false"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-Substituting the gauge potential expansion from Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-217"
-nolink "false"
-
-\end_inset
-
-) and employing Fubini's theorem,
- we obtain
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Recall that 
-\begin_inset Formula $\mathbf{X}_{n}^{*}\coloneqq\bigtimes^{n}\mathbf{MT}_{s}^{*}$
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{N}(\gamma^{Q})\big]\;=\;\mathbb{I}_{\mathfrak{g}}\;+\;\sum_{n\geq N+1}\;(-1)^{n}\;\sum_{\vec{a}\in\mathbf{I}_{k}^{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\bigwedge_{i=1}^{n}\;D^{2|4}\mathsf{Z}_{i}'\wedge\alpha_{c_{\vec{a}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\\
- & \qquad\underset{\mathbf{L}^{n}\,\,\,}{\int}\;\mathcal{F}_{\vec{a}}^{\lambda}\big(\gamma^{Q}\big)\;\bigwedge_{j=1}^{n}\;\frac{D\lambda_{j}}{\lambda_{j}\cdot\lambda_{j+1}}\mathsf{T}^{\mathsf{a}_{j}}\wedge\Psi_{\Delta_{j}}\Big|_{\mathcal{L}_{c_{\vec{a}}(j)}}\big(\lambda_{j}^{A};\mathsf{Z}_{j}'^{I}\big).
-\end{align}
-
-\end_inset
-
-Applying the celestial BMSW identity then yields the final form of this expansion,
- in terms of the mode coefficients 
-\begin_inset Formula $\alpha_{m}^{\Delta,\mathsf{a}}$
-\end_inset
-
- of the gauge potential and the moduli coordinates 
-\begin_inset Formula $\gamma^{Q}$
-\end_inset
-
-:
-\begin_inset Formula 
-\begin{align}
- & \mathrm{Hol}\big[\mathscr{S}_{N}(\gamma^{Q})\big]\;=\;\mathbb{I}_{\mathfrak{g}}\;+\;\sum_{n\geq N+1}\;(-1)^{n}\;\sum_{\vec{a}\in\mathbf{I}_{k}^{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\mathcal{F}_{\vec{a}}^{z'}\big(\gamma^{Q}\big)\\
- & \qquad\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{\vec{a}}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\,e^{i\langle z_{i}'|\xi_{c_{\vec{a}}(i)}\cdot\eta_{i}\rangle}\,\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{\vec{a}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.\label{eq:-222}
-\end{align}
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph*
-Wilson Operator;
- Semiclassical Expectation Value.
-\end_layout
-
-\begin_layout Standard
-The Wilson operator supported on the algebraic one-cycle is defined by:
-\begin_inset Formula 
-\begin{equation}
-\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{N}(\gamma^{Q})\big]\;\coloneqq\;\mathsf{Tr}_{\mathfrak{g}}\;\mathrm{Hol}\big[\mathscr{S}_{N}(\gamma^{Q})\big],
-\end{equation}
-
-\end_inset
-
-where the superscript 
-\begin_inset Formula $\boldsymbol{A}$
-\end_inset
-
- emphasise its dependence on the background gauge field.
- Physically,
- 
-\begin_inset Formula $\mathbb{W}[\mathscr{S}]$
-\end_inset
-
- is a nonlocal,
- gauge-invariant probe of the deformation of the holomorphic vacuum of the gauge theory on 
-\begin_inset Formula $E\to\mathbf{MT}_{s}$
-\end_inset
-
- along 
-\begin_inset Formula $\mathscr{S}_{N}$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-We define its semiclassical expectation value by integrating over the moduli superspace 
-\begin_inset Formula $\mathscr{M}_{N}$
-\end_inset
-
- with measure 
-\begin_inset Formula $\mathcal{D}\gamma$
-\end_inset
-
-:
-\begin_inset Formula 
-\begin{equation}
-\mathcal{I}_{k}[\boldsymbol{A}]\;\coloneqq\;\left\langle \mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{N}\big]\right\rangle _{0}\;\coloneqq\;\underset{\mathscr{M}_{N}\,\,\,}{\int}\;\mathcal{D}\gamma\;\mathbb{W}^{\boldsymbol{A}}\big[\mathscr{S}_{N}(\gamma^{Q})\big].\label{eq:-225}
-\end{equation}
-
-\end_inset
-
-Substituting the expansion of 
-\begin_inset Formula $\mathrm{Hol}$
-\end_inset
-
- (see Eq.
- (
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:-222"
-nolink "false"
-
-\end_inset
-
-)) and using the Berezin identity 
-\begin_inset Formula $\int d^{0|8}\theta\;r=0$
-\end_inset
-
-,
- one finds:
-\begin_inset Formula 
-\begin{align}
- & \mathcal{I}_{k}[\boldsymbol{A}]\;=\;\sum_{n\geq N+1}\;(-1)^{n}\;\sum_{\vec{a}\in\mathbf{I}_{k}^{n}}\;\underset{\mathbf{X}_{n}^{*}\,\,\,}{\int}\;\underset{\mathscr{M}_{N}\,\,\,}{\int}\;\mathcal{F}_{\vec{a}}^{z'}\big(\gamma^{Q}\big)\\
- & \qquad\bigwedge_{i=1}^{n}\;\frac{\mathcal{C}(\Delta_{i})}{\langle z_{i}'|Y_{c_{\vec{a}}(i)}|\bar{z}_{i}']^{\Delta_{i}}}\,e^{i\langle z_{i}'|\xi_{c_{\vec{a}}(i)}\cdot\eta_{i}\rangle}\,\frac{\mathsf{T}^{\mathsf{a}_{i}}}{z_{i}'\cdot z_{i+1}'}\;\alpha_{c_{\vec{a}}(i)}^{\Delta_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}'^{I}\big)\wedge D^{2|4}\mathsf{Z}_{i}'.
-\end{align}
-
-\end_inset
-
-Finally,
- fixing 
-\begin_inset Formula $\vec{a}\in\mathbf{I}_{k}^{n}$
-\end_inset
-
-,
- let 
-\begin_inset Formula $h_{i}$
-\end_inset
-
- denote the scaling dimension of the 
-\begin_inset Formula $i$
-\end_inset
-
--th gluon and let 
-\begin_inset Formula $\{\mathsf{Z}_{i}^{I}\}\subset\mathbf{MT}_{s}^{*}$
-\end_inset
-
- be the insertion points.
- Functional differentiation of 
-\begin_inset Formula $\mathcal{I}_{k}[\boldsymbol{A}]$
-\end_inset
-
- with respect to the modes 
-\begin_inset Formula $\alpha_{c_{\vec{a}}(i)}^{2h_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)$
-\end_inset
-
-,
- followed by setting 
-\begin_inset Formula $\boldsymbol{A}=0$
-\end_inset
-
-,
- yields:
-\begin_inset Formula 
-\begin{equation}
-(-1)^{n}\;\prod_{i=1}^{n}\;\frac{\delta}{\delta\alpha_{c_{\vec{a}}(i)}^{2h_{i},\mathsf{a}_{i}}\big(\mathsf{Z}_{i}^{I}\big)}\;\mathcal{I}_{k}[\boldsymbol{A}]\;=\;\mathcal{M}_{n;\vec{a}}^{\mathsf{a}_{1}\dots\mathsf{a}_{n}}\big(\mathsf{Z}_{i}^{I}\big).
-\end{equation}
-
-\end_inset
-
-Thus 
-\begin_inset Formula $\mathcal{I}_{k}[\boldsymbol{A}]$
-\end_inset
-
- is the generating functional for the leaf sub-amplitudes in 
-\begin_inset Formula $\mathrm{N}^{k}\text{-MHV}$
-\end_inset
-
- configurations and hence reproduces the full tree-level gluonic 
-\begin_inset Formula $\mathcal{S}$
-\end_inset
-
--matrix in 
-\begin_inset Formula $\mathcal{N}=4$
-\end_inset
-
- SYM theory.
+We must expand the holomorphic gauge potential in terms of the harmonic basis generated by the minitwistor 
 \end_layout
 
 \begin_layout Subsection
